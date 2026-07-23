@@ -24,6 +24,8 @@
   const toggleAll = document.getElementById("toggleAll");
   const sourceLinks = document.getElementById("sourceLinks");
   const photoCredits = document.getElementById("photoCredits");
+  const activityTimeline = document.getElementById("activityTimeline");
+  const activityNote = document.getElementById("activityNote");
   const backToTop = document.getElementById("backToTop");
 
   const externalLinkIcon = `
@@ -217,6 +219,81 @@
     }).join("");
   }
 
+  function formatActivityDate(isoDate) {
+    const [year, month, day] = isoDate.split("-").map(Number);
+    return `${month} 月 ${day} 日`;
+  }
+
+  function renderActivityItem(item) {
+    const member = memberById.get(item.memberId);
+    if (!member) {
+      return "";
+    }
+
+    const group = groupById.get(member.group);
+    const cnName = member.cnName ? `（${escapeHtml(member.cnName)}）` : "";
+
+    return `
+      <article class="timeline-item" style="--group-color: ${group.color}">
+        <div class="timeline-item__meta">
+          <button
+            class="timeline-item__member"
+            type="button"
+            data-member-id="${member.id}"
+            aria-label="查看 ${escapeHtml(member.name)} 的人物档案"
+          >${escapeHtml(member.name)}${cnName}</button>
+          <span class="timeline-item__group">${escapeHtml(group.name.replace("工作组", ""))}</span>
+          <span class="timeline-item__type">${escapeHtml(item.type)}</span>
+        </div>
+        <h3 class="timeline-item__title">${escapeHtml(item.title)}</h3>
+        <p class="timeline-item__summary">${escapeHtml(item.summary)}</p>
+        <a class="timeline-item__source" href="${item.url}" target="_blank" rel="noopener noreferrer">
+          ${externalLinkIcon}
+          来源：${escapeHtml(item.source)}
+        </a>
+      </article>
+    `;
+  }
+
+  function renderActivities() {
+    const activities = (data.activities || [])
+      .slice()
+      .sort((a, b) => b.date.localeCompare(a.date));
+
+    const activeIds = new Set(activities.map((item) => item.memberId));
+    const inactiveMembers = data.members.filter((member) => !activeIds.has(member.id));
+
+    if (!activities.length) {
+      activityTimeline.innerHTML = "";
+      activityNote.textContent = "2026 年 7 月 9 日宣布以来，暂无可核验的公开活动记录。";
+      return;
+    }
+
+    const byDate = new Map();
+    activities.forEach((item) => {
+      if (!byDate.has(item.date)) {
+        byDate.set(item.date, []);
+      }
+      byDate.get(item.date).push(item);
+    });
+
+    activityTimeline.innerHTML = Array.from(byDate.entries()).map(([date, items]) => `
+      <div class="timeline-day">
+        <time class="timeline-day__date" datetime="${date}">${formatActivityDate(date)}</time>
+        <div class="timeline-day__items">${items.map(renderActivityItem).join("")}</div>
+      </div>
+    `).join("");
+
+    if (inactiveMembers.length) {
+      const names = inactiveMembers
+        .map((member) => member.cnName || member.name)
+        .join("、");
+      activityNote.textContent = `其余 ${inactiveMembers.length} 位成员在此期间无公开动态记录：${names}。`;
+    } else {
+      activityNote.textContent = "";
+    }
+  }
+
   function renderSources() {
     sourceLinks.innerHTML = data.sources.map((source) => `
       <a class="source-link" href="${source.url}" target="_blank" rel="noopener noreferrer">
@@ -288,6 +365,13 @@
 
   function bindEvents() {
     leadershipMap.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-member-id]");
+      if (button) {
+        focusMember(button.dataset.memberId);
+      }
+    });
+
+    activityTimeline.addEventListener("click", (event) => {
       const button = event.target.closest("[data-member-id]");
       if (button) {
         focusMember(button.dataset.memberId);
@@ -377,6 +461,7 @@
   renderMandates();
   renderFilters();
   renderMembers();
+  renderActivities();
   renderSources();
   bindEvents();
   observeSections();

@@ -1,5 +1,5 @@
 window.TASK_FORCE_DATA = {
-  updated: "2026-07-10",
+  updated: "2026-07-23",
   groups: [
     {
       id: "communications",
@@ -544,6 +544,71 @@ window.TASK_FORCE_DATA = {
       tags: ["金融周期", "逆风干预", "宏观审慎"],
       photoCredit: "Institute for New Economic Thinking",
       photoSource: "https://www.ineteconomics.org/research/experts/wwhite"
+    }
+  ],
+  activities: [
+    {
+      date: "2026-07-22",
+      memberId: "arminio-fraga",
+      type: "播客",
+      title: "巴西 CBN 电台《50 Debates Para o Brasil》：央行独立性辩论",
+      summary: "与 Unicamp 教授 Belluzzo 辩论央行自主权。Fraga 主张央行独立性是民选政府设定通胀目标后的合法授权，可保护货币政策免受短期选举压力，是巴西的制度进步；并指出当前财政与货币政策相互背离是巴西高利率的根源。",
+      source: "Jornal da CBN",
+      url: "https://cbn.globo.com/coberturas/noticia/2026/07/22/50-debates-para-o-brasil-autonomia-do-banco-central-protege-a-economia-ou-limita-o-governo.ghtml"
+    },
+    {
+      date: "2026-07-21",
+      memberId: "marc-andreessen",
+      type: "专栏",
+      title: "《Making a Billion Intelligent Machines》（a16z 合著文章）",
+      summary: "与 Erik Torenberg、Elena Burger 合著，介绍被投企业 Applied Intuition 的物理 AI 代理开发平台 Dana；论证随着智能成本持续下降，智能将被部署到汽车、国防、建筑、采矿、卡车等十亿台机器上。",
+      source: "a16z",
+      url: "https://a16z.com/making-a-billion-intelligent-machines/"
+    },
+    {
+      date: "2026-07-20",
+      memberId: "karen-dynan",
+      type: "出席",
+      title: "NBER 夏季研究院 CRIW 会议（剑桥，7 月 20-21 日）",
+      summary: "以收入与财富研究会议（CRIW）主席身份担任三位组织者之一，主持 2026 年 NBER 夏季研究院 CRIW 分会。",
+      source: "NBER",
+      url: "https://www.nber.org/conferences/si-2026-conference-research-income-and-wealth"
+    },
+    {
+      date: "2026-07-17",
+      memberId: "greg-mankiw",
+      type: "博客",
+      title: "《Thank you, British Academy》",
+      summary: "宣布当选英国国家学术院（British Academy）国际院士，表示深感荣幸。",
+      source: "Greg Mankiw's Blog",
+      url: "https://gregmankiw.blogspot.com/2026/07/thank-you-british-academy.html"
+    },
+    {
+      date: "2026-07-15",
+      memberId: "greg-mankiw",
+      type: "博客",
+      title: "《1873》：评 Liaquat Ahamed 新书",
+      summary: "称这本关于 1873 年全球金融危机的新书「出色」；指出书中铁路繁荣的讨论与当前 AI 热潮颇有共鸣——都是吸引投机者并造成损失的变革性技术。",
+      source: "Greg Mankiw's Blog",
+      url: "https://gregmankiw.blogspot.com/2026/07/1873.html"
+    },
+    {
+      date: "2026-07-14",
+      memberId: "karen-dynan",
+      type: "出席",
+      title: "《Understanding the national debt and the risks of a fiscal crisis》网络研讨会",
+      summary: "作为座谈成员讨论 31.5 万亿美元联邦债务的成因、利息负担、高债务是否会引发通胀、财政问题如何演变为危机；与 Daniel Bergstresser、Douglas Elmendorf 同场。",
+      source: "Shorenstein Center × EconoFact",
+      url: "https://shorensteincenter.org/resource/understanding-the-national-debt-and-the-risks-of-a-fiscal-crisis/"
+    },
+    {
+      date: "2026-07-10",
+      memberId: "greg-mankiw",
+      type: "博客",
+      title: "《The Fed's New Task Forces》",
+      summary: "确认自己与 Sargent、White 共同任职于美联储新成立的通胀框架特别工作组；表示现阶段评论工作组的工作为时尚早，婉拒记者采访，并指引记者参考其两年前的相关旧文。",
+      source: "Greg Mankiw's Blog",
+      url: "https://gregmankiw.blogspot.com/2026/07/the-feds-new-task-forces.html"
     }
   ],
   sources: [
