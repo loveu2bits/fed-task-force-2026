@@ -3,3 +3,4 @@ build-single-file.mjs
 assets/portraits/peter-fisher.webp
 assets/portraits/william-white.jpg
 assets/portraits/greg-mankiw.jpg
+.DS_Store
