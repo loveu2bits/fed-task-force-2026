@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="美联储五个货币政策特别工作组的 15 位外部联合负责人：履历、研究贡献与政策观点。">
-  <title>美联储特别工作组领导班子</title>
+  <meta name="description" content="美联储理事会现任 7 位理事：职务、任期、FOMC 投票权与政策立场。">
+  <title>美联储理事会现任成员</title>
   <link rel="icon" type="image/svg+xml" href="./favicon.svg">
   <link rel="alternate icon" type="image/png" href="./favicon-180.png">
   <link rel="apple-touch-icon" href="./favicon-180.png">
@@ -19,13 +19,13 @@
       <span class="site-mark__text">美联储特别工作组 <span>人物档案</span></span>
     </a>
     <div class="page-switch" role="navigation" aria-label="栏目切换">
-      <a class="page-switch__tab is-active" href="index.html" aria-current="page">特别工作组</a>
-      <a class="page-switch__tab" href="governors.html">现任理事</a>
+      <a class="page-switch__tab" href="index.html">特别工作组</a>
+      <a class="page-switch__tab is-active" href="governors.html" aria-current="page">现任理事</a>
     </div>
     <nav class="site-nav" aria-label="页面导航">
       <a href="#overview">总览</a>
-      <a href="#mandates">工作组</a>
-      <a href="#directory">成员档案</a>
+      <a href="#voting">投票权</a>
+      <a href="#directory">理事档案</a>
       <a href="#activity">动态</a>
       <a href="#sources">来源</a>
     </nav>
@@ -35,10 +35,11 @@
     <section class="overview" id="overview" aria-labelledby="page-title">
       <div class="overview__heading shell">
         <div class="overview__copy">
-          <h1 id="page-title">美联储特别工作组</h1>
+          <h1 id="page-title">美联储理事会</h1>
           <p>
-            2026 年 7 月 9 日，美联储公布五个货币政策特别工作组的外部联合负责人。
-            这 15 位成员横跨央行、学界、金融市场与科技产业，他们将从不同路径重新审视美联储的政策工具与分析框架。
+            理事会是联邦储备系统的核心治理机构，7 位理事由总统提名、参议院确认，任期 14 年。
+            2026 年 5 月 Kevin Warsh 接替 Powell 出任主席后，理事会完成新一轮改组；
+            全体 7 位理事在联邦公开市场委员会（FOMC）中均拥有永久投票权。
           </p>
         </div>
         <div class="overview__date" aria-label="资料日期">
@@ -47,35 +48,35 @@
         </div>
       </div>
 
-      <div class="leadership-map shell" id="leadershipMap" aria-label="五个工作组及成员总览"></div>
+      <div class="board-strip shell" id="boardStrip" aria-label="七位理事总览"></div>
 
-      <div class="summary-rail shell" aria-label="工作组概览数据">
+      <div class="summary-rail shell" aria-label="理事会概览数据">
         <div class="summary-rail__item">
-          <strong>5</strong>
-          <span>政策工作组</span>
+          <strong>7</strong>
+          <span>现任理事</span>
         </div>
         <div class="summary-rail__item">
-          <strong>15</strong>
-          <span>外部联合负责人</span>
+          <strong>12</strong>
+          <span>FOMC 票委</span>
         </div>
         <div class="summary-rail__item">
-          <strong>3</strong>
-          <span>每组共同主持人</span>
+          <strong>3.50-3.75%</strong>
+          <span>联邦基金利率</span>
         </div>
         <div class="summary-rail__statement">
           <span class="summary-rail__rule" aria-hidden="true"></span>
-          <p>遵循证据、坦率反馈，并向联邦公开市场委员会提交严谨结论。</p>
+          <p>7 位理事全部为 FOMC 永久票委——理事会的集体立场，就是货币政策的基本盘。</p>
         </div>
       </div>
     </section>
 
-    <section class="mandates" id="mandates" aria-labelledby="mandates-title">
+    <section class="mandates" id="voting" aria-labelledby="voting-title">
       <div class="shell">
         <div class="section-heading">
-          <h2 id="mandates-title">五条政策轨道</h2>
-          <p>每个工作组都对应一个正在改变货币政策判断方式的关键问题。</p>
+          <h2 id="voting-title">FOMC 投票权结构</h2>
+          <p>12 个投票席位的构成：7 位理事永久投票，纽约联储主席永久投票，4 个席位在地区联储主席间年度轮换。</p>
         </div>
-        <div class="mandate-list" id="mandateList"></div>
+        <div class="mandate-list" id="votingStructure"></div>
       </div>
     </section>
 
@@ -83,8 +84,8 @@
       <div class="shell">
         <div class="directory__heading section-heading">
           <div>
-            <h2 id="directory-title">成员档案</h2>
-            <p>履历、代表性研究与政策主张。</p>
+            <h2 id="directory-title">理事档案</h2>
+            <p>职务、任期、投票权与政策立场。</p>
           </div>
           <button class="text-command" id="toggleAll" type="button" aria-expanded="false">
             <svg aria-hidden="true" viewBox="0 0 24 24">
@@ -95,24 +96,7 @@
           </button>
         </div>
 
-        <div class="directory-tools" aria-label="成员筛选工具">
-          <label class="search-field" for="memberSearch">
-            <svg aria-hidden="true" viewBox="0 0 24 24">
-              <circle cx="11" cy="11" r="8"></circle>
-              <path d="m21 21-4.3-4.3"></path>
-            </svg>
-            <span class="sr-only">搜索成员</span>
-            <input id="memberSearch" type="search" autocomplete="off" placeholder="搜索姓名、研究或政策观点">
-          </label>
-          <div class="group-filters" id="groupFilters" role="group" aria-label="按工作组筛选"></div>
-        </div>
-
-        <p class="result-status" id="resultStatus" aria-live="polite"></p>
-        <div class="member-list" id="memberList"></div>
-        <div class="empty-state" id="emptyState" hidden>
-          <h3>没有匹配的成员</h3>
-          <p>请更换关键词或选择其他工作组。</p>
-        </div>
+        <div class="member-list" id="governorList"></div>
       </div>
     </section>
 
@@ -121,11 +105,10 @@
         <div class="section-heading">
           <div>
             <h2 id="activity-title">近期动态</h2>
-            <p>2026 年 7 月 9 日宣布以来，成员的公开活动与发言要点。</p>
+            <p>Warsh 就任主席以来，理事会与 FOMC 的关键节点。</p>
           </div>
         </div>
         <div class="timeline" id="activityTimeline"></div>
-        <p class="activity-note" id="activityNote"></p>
       </div>
     </section>
 
@@ -134,7 +117,7 @@
         <div>
           <h2 id="sources-title">资料来源</h2>
           <p>
-            成员名单与工作组职责以美联储 2026 年 7 月 9 日公告为准；履历与观点根据原始研究底稿及公开机构资料整理。
+            理事名单、职务与任期以美联储官网理事会页面为准；投票权结构依据《联邦储备法》与 FOMC 年度组织安排。
           </p>
           <div class="source-links" id="sourceLinks"></div>
         </div>
@@ -149,7 +132,7 @@
   <footer class="site-footer">
     <div class="shell">
       <p>Ethan</p>
-      <p>研究资料，不代表美联储或成员本人立场。</p>
+      <p>研究资料，不代表美联储或理事本人立场。</p>
     </div>
   </footer>
 
@@ -159,8 +142,8 @@
     </svg>
   </button>
 
-  <noscript>此页面需要启用 JavaScript 才能显示成员档案。</noscript>
-  <script src="data.js" defer></script>
-  <script src="app.js" defer></script>
+  <noscript>此页面需要启用 JavaScript 才能显示理事档案。</noscript>
+  <script src="governors-data.js" defer></script>
+  <script src="governors.js" defer></script>
 </body>
 </html>

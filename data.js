@@ -1,5 +1,5 @@
 window.TASK_FORCE_DATA = {
-  updated: "2026-07-23",
+  updated: "2026-07-30",
   groups: [
     {
       id: "communications",
@@ -547,6 +547,24 @@ window.TASK_FORCE_DATA = {
     }
   ],
   activities: [
+    {
+      date: "2026-07-06",
+      memberId: "asha-sharma",
+      type: "重组",
+      title: "Xbox 宣布「Big Reset」重组：FY27 裁员约 3,200 人",
+      summary: "Sharma 在全员邮件中宣布裁减约 3,200 个岗位（约 1,600 个立即生效），称投资将向 Activision、Bethesda 与 Blizzard 集中；表示已公开的第一方游戏不受影响。这是她就任 Xbox CEO 后最大规模的组织重构，直接对应工作组关注的 AI 时代岗位重构议题。",
+      source: "Insider Gaming",
+      url: "https://insider-gaming.com/xbox-july-2026-layoffs/"
+    },
+    {
+      date: "2026-06-30",
+      memberId: "charles-jones",
+      type: "就任",
+      title: "正式加入 Anthropic Institute，研究 AI 的经济影响",
+      summary: "Jones 自斯坦福休假，加入 Jack Clark 领导的 Anthropic Institute，评估 AI 对经济增长的多情景影响与存在性风险；其模型给出超级智能约三分之一的灾难概率与约三分之二的生活水平大幅提升概率。",
+      source: "Crypto Briefing",
+      url: "https://cryptobriefing.com/anthropic-hires-chad-jones-ai-risks/"
+    },
     {
       date: "2026-07-22",
       memberId: "arminio-fraga",
