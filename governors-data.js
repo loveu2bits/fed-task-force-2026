@@ -1,5 +1,21 @@
 window.FED_BOARD_DATA = {
   updated: "2026-07-30",
+  lanes: [
+    {
+      id: "leadership",
+      number: "01",
+      name: "主席与副主席",
+      en: "Chair & Vice Chairs",
+      color: "#164b7a"
+    },
+    {
+      id: "governors",
+      number: "02",
+      name: "理事",
+      en: "Governors",
+      color: "#23766f"
+    }
+  ],
   votingStructure: [
     {
       id: "board",
@@ -32,6 +48,7 @@ window.FED_BOARD_DATA = {
   governors: [
     {
       id: "kevin-warsh",
+      lane: "leadership",
       role: "主席",
       roleEn: "Chair",
       name: "Kevin M. Warsh",
@@ -69,6 +86,7 @@ window.FED_BOARD_DATA = {
     },
     {
       id: "philip-jefferson",
+      lane: "leadership",
       role: "副主席",
       roleEn: "Vice Chair",
       name: "Philip N. Jefferson",
@@ -100,6 +118,7 @@ window.FED_BOARD_DATA = {
     },
     {
       id: "michelle-bowman",
+      lane: "leadership",
       role: "监管副主席",
       roleEn: "Vice Chair for Supervision",
       name: "Michelle W. Bowman",
@@ -131,6 +150,7 @@ window.FED_BOARD_DATA = {
     },
     {
       id: "michael-barr",
+      lane: "governors",
       role: "理事",
       roleEn: "Governor",
       name: "Michael S. Barr",
@@ -162,6 +182,7 @@ window.FED_BOARD_DATA = {
     },
     {
       id: "lisa-cook",
+      lane: "governors",
       role: "理事",
       roleEn: "Governor",
       name: "Lisa D. Cook",
@@ -193,6 +214,7 @@ window.FED_BOARD_DATA = {
     },
     {
       id: "jerome-powell",
+      lane: "governors",
       role: "理事（前任主席）",
       roleEn: "Governor, former Chair",
       name: "Jerome H. Powell",
@@ -224,6 +246,7 @@ window.FED_BOARD_DATA = {
     },
     {
       id: "christopher-waller",
+      lane: "governors",
       role: "理事",
       roleEn: "Governor",
       name: "Christopher J. Waller",

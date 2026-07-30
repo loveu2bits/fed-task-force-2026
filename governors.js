@@ -8,8 +8,9 @@
   }
 
   const governorById = new Map(data.governors.map((governor) => [governor.id, governor]));
+  const laneById = new Map(data.lanes.map((lane) => [lane.id, lane]));
 
-  const boardStrip = document.getElementById("boardStrip");
+  const leadershipMap = document.getElementById("leadershipMap");
   const votingStructure = document.getElementById("votingStructure");
   const governorList = document.getElementById("governorList");
   const toggleAll = document.getElementById("toggleAll");
@@ -34,32 +35,48 @@
       .replaceAll("'", "&#039;");
   }
 
-  function renderBoardStrip() {
-    boardStrip.innerHTML = data.governors.map((governor, index) => `
-      <button
-        class="board-member"
-        type="button"
-        data-governor-id="${governor.id}"
-        aria-label="查看 ${escapeHtml(governor.name)} 的理事档案"
-        style="--item-order: ${index}"
-      >
-        <span class="board-member__portrait">
-          <img
-            src="${governor.portrait}"
-            alt=""
-            width="128"
-            height="160"
-            style="object-position: ${governor.portraitPosition}"
-            ${index < 4 ? 'fetchpriority="high"' : 'loading="lazy"'}
-            decoding="async"
-          >
-        </span>
-        <span class="board-member__copy">
-          <span class="board-member__name">${escapeHtml(governor.name)}</span>
-          <span class="board-member__role">${escapeHtml(governor.role)}</span>
-        </span>
-      </button>
-    `).join("");
+  function renderLeadershipMap() {
+    leadershipMap.innerHTML = data.lanes.map((lane, laneIndex) => {
+      const governors = data.governors.filter((governor) => governor.lane === lane.id);
+      const memberMarkup = governors.map((governor, memberIndex) => `
+        <button
+          class="map-member"
+          type="button"
+          data-governor-id="${governor.id}"
+          aria-label="查看 ${escapeHtml(governor.name)} 的理事档案"
+          style="--item-order: ${laneIndex * 4 + memberIndex}"
+        >
+          <span class="map-member__portrait">
+            <img
+              src="${governor.portrait}"
+              alt=""
+              width="116"
+              height="140"
+              style="object-position: ${governor.portraitPosition}"
+              ${laneIndex === 0 ? 'fetchpriority="high"' : 'loading="lazy"'}
+              decoding="async"
+            >
+          </span>
+          <span class="map-member__copy">
+            <span class="map-member__name">${escapeHtml(governor.name)}</span>
+            <span class="map-member__role">${escapeHtml(governor.role)}</span>
+          </span>
+        </button>
+      `).join("");
+
+      return `
+        <div class="group-lane ${governors.length > 3 ? "group-lane--four" : ""}" style="--group-color: ${lane.color}">
+          <div class="group-lane__label">
+            <span class="group-lane__number">${lane.number}</span>
+            <span>
+              <strong>${escapeHtml(lane.name)}</strong>
+              <span>${escapeHtml(lane.en)}</span>
+            </span>
+          </div>
+          <div class="group-lane__members">${memberMarkup}</div>
+        </div>
+      `;
+    }).join("");
   }
 
   function renderVotingStructure() {
@@ -76,8 +93,15 @@
     `).join("");
   }
 
+  function profileIndex(governor) {
+    const lane = laneById.get(governor.lane);
+    const withinLane = data.governors.filter((item) => item.lane === governor.lane).indexOf(governor) + 1;
+    return `${lane.number}.${withinLane}`;
+  }
+
   function renderGovernors() {
-    governorList.innerHTML = data.governors.map((governor, index) => {
+    governorList.innerHTML = data.governors.map((governor) => {
+      const lane = laneById.get(governor.lane);
       const tags = governor.tags
         .map((tag) => `<span>${escapeHtml(tag)}</span>`)
         .join("");
@@ -96,7 +120,7 @@
           class="member-profile"
           id="profile-${governor.id}"
           data-governor-id="${governor.id}"
-          style="--group-color: #164b7a"
+          style="--group-color: ${lane.color}"
         >
           <summary>
             <span class="profile-portrait" data-initials="${escapeHtml(governor.name.split(" ").map((word) => word[0]).join(""))}">
@@ -112,6 +136,7 @@
             </span>
             <span class="profile-summary">
               <span class="profile-meta">
+                <span>${escapeHtml(lane.name)}</span>
                 <span>${escapeHtml(governor.role)} · ${escapeHtml(governor.roleEn)}</span>
                 <span class="voting-badge">${escapeHtml(governor.voting)}</span>
               </span>
@@ -120,7 +145,7 @@
               <span class="profile-core">${escapeHtml(governor.core)}</span>
               <span class="profile-tags" aria-label="标签">${tags}</span>
             </span>
-            <span class="profile-index" aria-hidden="true">${String(index + 1).padStart(2, "0")}</span>
+            <span class="profile-index" aria-hidden="true">${profileIndex(governor)}</span>
           </summary>
           <div class="profile-details">
             <div>
@@ -242,7 +267,7 @@
   }
 
   function bindEvents() {
-    boardStrip.addEventListener("click", (event) => {
+    leadershipMap.addEventListener("click", (event) => {
       const button = event.target.closest("[data-governor-id]");
       if (button) {
         focusGovernor(button.dataset.governorId);
@@ -274,7 +299,7 @@
         return;
       }
 
-      const portrait = event.target.closest(".profile-portrait, .board-member__portrait");
+      const portrait = event.target.closest(".profile-portrait, .map-member__portrait");
       if (portrait) {
         portrait.classList.add("is-fallback");
         event.target.remove();
@@ -291,7 +316,7 @@
   }
 
   function observeSections() {
-    const navLinks = Array.from(document.querySelectorAll(".site-nav a"));
+    const navLinks = Array.from(document.querySelectorAll(".site-nav a[href^=\"#\"]"));
     const sections = navLinks
       .map((link) => document.querySelector(link.getAttribute("href")))
       .filter(Boolean);
@@ -320,7 +345,7 @@
     sections.forEach((section) => observer.observe(section));
   }
 
-  renderBoardStrip();
+  renderLeadershipMap();
   renderVotingStructure();
   renderGovernors();
   renderActivities();

@@ -428,7 +428,7 @@
   }
 
   function observeSections() {
-    const navLinks = Array.from(document.querySelectorAll(".site-nav a"));
+    const navLinks = Array.from(document.querySelectorAll(".site-nav a[href^=\"#\"]"));
     const sections = navLinks
       .map((link) => document.querySelector(link.getAttribute("href")))
       .filter(Boolean);
