@@ -1,5 +1,5 @@
 window.FED_BOARD_DATA = {
-  updated: "2026-07-30",
+  updated: "2026-08-10",
   lanes: [
     {
       id: "leadership",
@@ -279,6 +279,15 @@ window.FED_BOARD_DATA = {
   ],
   activities: [
     {
+      date: "2026-08-05",
+      memberId: "lisa-cook",
+      type: "演讲",
+      title: "《Outlook for the U.S. and Alaskan Economies》（安克雷奇经济发展公司午餐会）",
+      summary: "Cook 直言「通胀过高」：6 月 PCE 同比 3.7%、核心 3.3%，中东冲突推高的能源价格与企业 AI 基建投资推高的半导体、高科技设备价格是两大意外压力来源；劳动力市场处于「低招聘、低裁员」均衡。她认为通胀风险高于就业风险，明确表态「必要时已准备好加息」，但支持暂不行动，理由是关税传导基本过去、油价有望年底回落、AI 相关价格压力将随供应链调整缓解；同时警告通胀已连续五年高于目标，若看不到持续反通胀迹象将出手。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm"
+    },
+    {
       date: "2026-07-29",
       memberId: null,
       type: "议息",
@@ -334,6 +343,10 @@ window.FED_BOARD_DATA = {
     }
   ],
   sources: [
+    {
+      label: "Cook 演讲：Outlook for the U.S. and Alaskan Economies（2026-08-05）",
+      url: "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm"
+    },
     {
       label: "美联储理事会：现任成员",
       url: "https://www.federalreserve.gov/aboutthefed/bios/board/default.htm"
