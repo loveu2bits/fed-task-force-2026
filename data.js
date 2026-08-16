@@ -1,5 +1,5 @@
 window.TASK_FORCE_DATA = {
-  updated: "2026-07-30",
+  updated: "2026-08-17",
   groups: [
     {
       id: "communications",
@@ -548,6 +548,42 @@ window.TASK_FORCE_DATA = {
   ],
   activities: [
     {
+      date: "2026-08-15",
+      memberId: "arminio-fraga",
+      type: "播客",
+      title: "Folha《Desenquadrando》视频播客：巴西重蹈覆辙，财政堪比 Dilma 危机前夜",
+      summary: "Fraga 将巴西当前财政状况比作 Dilma 政府危机前夜，称留给下一届政府的是「被诅咒的遗产」。他批评宏观政策完全失调——央行加息抗通胀、政府在选举年扩张支出，形成「拔河」式博弈；并指出失业率降至 5.4% 的亮眼数据掩盖了财政问题，「短期刺激解决不了问题」。",
+      source: "Folha de S.Paulo",
+      url: "https://www1.folha.uol.com.br/mercado/2026/08/arminio-fraga-diz-que-brasil-repete-erros-e-compara-cenario-economico-ao-pre-crise-do-governo-dilma.shtml"
+    },
+    {
+      date: "2026-08-14",
+      memberId: "raghuram-rajan",
+      type: "专栏",
+      title: "《How Corporations Can Mitigate an AI Jobocalypse》（Project Syndicate）",
+      summary: "Rajan 认为 AI 引发的岗位替代「即将到来」，但速度、广度与受影响行业未知，取决于企业采纳节奏——美国少于 20 人的企业仅约 20% 使用 AI，250 人以上企业为 37%。即便冲击弱于最悲观预期，也应动员企业参与缓解就业影响以维护社会团结；政府需审视现有政策激励，大雇主应着眼自身长期利益，为技能再培训与岗位过渡做好准备。",
+      source: "Project Syndicate",
+      url: "https://www.project-syndicate.org/commentary/corporations-can-mitigate-ai-jobs-apocalypse-by-raghuram-g-rajan-2026-08"
+    },
+    {
+      date: "2026-08-11",
+      memberId: "arminio-fraga",
+      type: "出席",
+      title: "CIEE 圣保罗市场调节圆桌：批评 Banco Master 案监管执行「荒谬」，主张重估存款保险基金",
+      summary: "Fraga 称 Banco Master 案暴露的是监管执行的失败而非规则设计问题，「堪称荒谬（grotesca）」；认为存款保险基金（FGC）激励机制扭曲，让银行能以 CDI+6% 的高息揽储并获系统保护。他还指出高实际利率压制巴西资本市场发展，「不存在自愿压低利率的路径」。",
+      source: "Brasil 247",
+      url: "https://www.brasil247.com/economia/arminio-fraga-ve-falha-grotesca-na-aplicacao-da-regulacao-no-caso-master/"
+    },
+    {
+      date: "2026-08-10",
+      memberId: "karen-dynan",
+      type: "专栏",
+      title: "《How the Rise of AI Matters for Fiscal Policy》：AI 的财政后果取决于收益归属",
+      summary: "Dynan 与 Elmendorf、Sheiner 基于 CBO 预测构建四种 AI 情景测算美国联邦债务走势：生产率提速、收入向顶层集中、岗位流失与收益全部归于资本。结论是 AI 的财政影响既取决于其提高国民收入的程度，也取决于谁获得这些收入及政策如何回应；因冲击深具不确定性，政策应「购买保险」——小规模建立工资保险、强化培训或适度公共持股。",
+      source: "Global Business & Finance Magazine（原文 VoxEU/CEPR）",
+      url: "https://gbfinancemag.com/how-the-rise-of-ai-matters-for-fiscal-policy/"
+    },
+    {
       date: "2026-07-06",
       memberId: "asha-sharma",
       type: "重组",
@@ -630,6 +666,22 @@ window.TASK_FORCE_DATA = {
     }
   ],
   sources: [
+    {
+      label: "Fraga 播客：Folha《Desenquadrando》（2026-08-15）",
+      url: "https://www1.folha.uol.com.br/mercado/2026/08/arminio-fraga-diz-que-brasil-repete-erros-e-compara-cenario-economico-ao-pre-crise-do-governo-dilma.shtml"
+    },
+    {
+      label: "Rajan 专栏：How Corporations Can Mitigate an AI Jobocalypse（2026-08-14）",
+      url: "https://www.project-syndicate.org/commentary/corporations-can-mitigate-ai-jobs-apocalypse-by-raghuram-g-rajan-2026-08"
+    },
+    {
+      label: "Fraga 圆桌：Banco Master 监管评论（2026-08-11）",
+      url: "https://www.brasil247.com/economia/arminio-fraga-ve-falha-grotesca-na-aplicacao-da-regulacao-no-caso-master/"
+    },
+    {
+      label: "Dynan 专栏：How the Rise of AI Matters for Fiscal Policy（2026-08-10）",
+      url: "https://gbfinancemag.com/how-the-rise-of-ai-matters-for-fiscal-policy/"
+    },
     {
       label: "美联储新闻稿：任务组领导与目标（2026-07-09）",
       url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm"
