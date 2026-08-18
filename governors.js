@@ -18,6 +18,11 @@
   const photoCredits = document.getElementById("photoCredits");
   const activityTimeline = document.getElementById("activityTimeline");
   const backToTop = document.getElementById("backToTop");
+  const updatedDate = document.getElementById("updatedDate");
+
+  if (updatedDate && data.updated) {
+    updatedDate.textContent = data.updated.replaceAll("-", ".");
+  }
 
   const externalLinkIcon = `
     <svg aria-hidden="true" viewBox="0 0 24 24">
