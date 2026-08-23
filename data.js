@@ -1,5 +1,5 @@
 window.TASK_FORCE_DATA = {
-  updated: "2026-08-17",
+  updated: "2026-08-24",
   groups: [
     {
       id: "communications",
@@ -548,6 +548,15 @@ window.TASK_FORCE_DATA = {
   ],
   activities: [
     {
+      date: "2026-08-20",
+      memberId: "peter-fisher",
+      type: "受访",
+      title: "Foster 商学院专访《Peter R. Fisher Brings a Career in Markets and Monetary Policy to Foster》",
+      summary: "Fisher 以金融学实践教授身份正式加入华盛顿大学 Foster 商学院新设的一年制 MS Finance 项目，并接受专访。他强调「不确定性下的决策」是金融教育的核心，学生必须理解资产负债表错配——「我们总是做多某些东西、做空另一些东西」，并应常问「我为什么可能是错的」；他表示无意教学生成为央行家，而是要培养「对央行与银行叙事的怀疑性消费者」。专访并确认他已于 2026 年 7 月获主席 Warsh 任命进入美联储沟通工作组，与 King、Fraga 共事。",
+      source: "University of Washington Foster School of Business",
+      url: "https://foster.uw.edu/news/ms-finance-peter-r-fisher/"
+    },
+    {
       date: "2026-08-15",
       memberId: "arminio-fraga",
       type: "播客",
@@ -666,6 +675,10 @@ window.TASK_FORCE_DATA = {
     }
   ],
   sources: [
+    {
+      label: "Foster 商学院专访：Peter R. Fisher Brings a Career in Markets and Monetary Policy to Foster（2026-08-20）",
+      url: "https://foster.uw.edu/news/ms-finance-peter-r-fisher/"
+    },
     {
       label: "Fraga 播客：Folha《Desenquadrando》（2026-08-15）",
       url: "https://www1.folha.uol.com.br/mercado/2026/08/arminio-fraga-diz-que-brasil-repete-erros-e-compara-cenario-economico-ao-pre-crise-do-governo-dilma.shtml"

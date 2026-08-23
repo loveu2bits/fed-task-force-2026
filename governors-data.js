@@ -1,5 +1,5 @@
 window.FED_BOARD_DATA = {
-  updated: "2026-08-17",
+  updated: "2026-08-24",
   lanes: [
     {
       id: "leadership",
@@ -279,6 +279,15 @@ window.FED_BOARD_DATA = {
   ],
   activities: [
     {
+      date: "2026-08-19",
+      memberId: null,
+      type: "纪要",
+      title: "FOMC 发布 7 月 28-29 日会议纪要：若通胀不回落，收紧「可能是必要的」",
+      summary: "纪要显示委员会以 9-3 维持联邦基金利率在 3.50%-3.75%，三位轮值票委再度投反对票主张加息 25 个基点。多数与会者认为若通胀未能回落，政策收紧可能是必要的，部分人担心当前金融条件尚不够具限制性；通胀风险被普遍视为偏上行——中东冲突、关税传导与 AI 建设热潮推高的数据中心材料、电子设备与电力价格被多次点名。资产负债表政策占讨论相当篇幅：多位与会者表示资产负债表工作组的研究结论将成为未来 FOMC 审议的重要输入；Warsh 还在会上提议将每年八次议息会议改为约六次、每两个月一次以留出更多审议时间（未作决定，且不影响 2026 年内日程）。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm"
+    },
+    {
       date: "2026-08-05",
       memberId: "lisa-cook",
       type: "演讲",
@@ -343,6 +352,10 @@ window.FED_BOARD_DATA = {
     }
   ],
   sources: [
+    {
+      label: "FOMC 会议纪要（2026 年 7 月 28-29 日会议，2026-08-19 发布）",
+      url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm"
+    },
     {
       label: "Cook 演讲：Outlook for the U.S. and Alaskan Economies（2026-08-05）",
       url: "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm"
