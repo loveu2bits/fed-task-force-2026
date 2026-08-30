@@ -1,5 +1,5 @@
 window.FED_BOARD_DATA = {
-  updated: "2026-08-24",
+  updated: "2026-08-31",
   lanes: [
     {
       id: "leadership",
@@ -279,6 +279,15 @@ window.FED_BOARD_DATA = {
   ],
   activities: [
     {
+      date: "2026-08-28",
+      memberId: "kevin-warsh",
+      type: "演讲",
+      title: "Jackson Hole 主旨演讲《In Our Time》：改革前瞻指引，重申 2% 通胀目标与「价格优先」",
+      summary: "Warsh 在上任满百日前夕发表杰克逊霍尔主旨演讲，宣布将改变美联储主席「前瞻指引」的形式与功能：这一危机时代工具已「过度停留」，常态下应限缩使用，过度预告未来决策反而「以清晰之名制造歧义」并束缚政策空间。他重申 2% PCE 目标是固定而坚定的，但「价格稳定并非自我执行」，65 个月的通胀偏高「责任就在央行」；当前 PCE 同比 3.7%、半年化 4.1%，「美联储此刻压倒性的焦点应在价格」，若潜在通胀未清晰且足够快地走向目标，「我们就还有工作要做」。经济方面他认为基本面走强——设备与无形资产投资同比增约 9%（过半来自 AI 基建）、标普 500 盈利同比增逾 20%、失业率 4.1% 接近充分就业，但住房与农业出现压力，并提示应紧盯增速的二阶导数。他还主张短期利率是达成双重使命的压倒性工具、非常规政策仅应限用于真正危机、并强调「货币很重要」；谈到任务组时，他表示与五个工作组负责人的「早期沟通令人鼓舞」，但建议不会影响当前政策判断。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm"
+    },
+    {
       date: "2026-08-19",
       memberId: null,
       type: "纪要",
@@ -352,6 +361,10 @@ window.FED_BOARD_DATA = {
     }
   ],
   sources: [
+    {
+      label: "Warsh 演讲：In Our Time（Jackson Hole，2026-08-28）",
+      url: "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm"
+    },
     {
       label: "FOMC 会议纪要（2026 年 7 月 28-29 日会议，2026-08-19 发布）",
       url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260819a.htm"

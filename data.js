@@ -1,5 +1,5 @@
 window.TASK_FORCE_DATA = {
-  updated: "2026-08-24",
+  updated: "2026-08-31",
   groups: [
     {
       id: "communications",
@@ -548,6 +548,24 @@ window.TASK_FORCE_DATA = {
   ],
   activities: [
     {
+      date: "2026-08-28",
+      memberId: "marc-andreessen",
+      type: "新闻稿",
+      title: "a16z 宣布募集 11 亿美元《Machine Age Fund》，专项投资 AI 计算基础设施",
+      summary: "Andreessen 联合创办的 a16z 宣布为最新基金 Machine Age Fund 募集 11 亿美元（公告由 Ben Horowitz、Martin Casado、Raghu Raghuram、David Ulevitch、David George 等合伙人与 GP 执笔），将专项投资 AI 运行依赖的芯片、内存、网络、存储以及数据中心、机器人、家用 AI 设备等全栈基础设施。公告称 AI 正从对话走向推理与知识工作，token 消耗强度呈数量级上升，而供给侧受制于电力、互连与算力密度等物理极限，需以「机器时代」的硬件重构解围——机架功率已从 5-10 kW 升至 100-250 kW 并将迈向 1 MW，数据中心正从数十 MW 走向 GW 级园区。作为生产力与就业工作组的技术投资人代表，该基金的 AI 资本密集度与供给端议题与其长期论断相呼应。",
+      source: "a16z",
+      url: "https://a16z.com/the-machine-age-fund/"
+    },
+    {
+      date: "2026-08-27",
+      memberId: "arminio-fraga",
+      type: "受访",
+      title: "Folha 报道：Fraga 公开支持拟递交 2026 总统候选人的巴西结构性养老改革方案",
+      summary: "据 Folha 报道，Fraga 对一份即将呈递巴西总统候选人的第二轮养老改革提案公开表示支持。该方案由经济学家 Paulo Tafner 牵头：参数端将最低退休年龄由男女 62/65 岁逐步统一并提升至 67 岁（以「育儿贡献年」给予女性补偿）；结构端将现行百分百现收现付制改为混合制——一半缴费进入由私营保险机构与公共基金管理的资本化账户、另一半进入 INSS 名义账户制。据测算，参数改革每年节省约 2% GDP、结构改革约 7% GDP，可把养老支出稳定在 10% GDP 附近（若不改革 2100 年将升至 17%），延续了 Fraga 一贯的高实际利率与财政纪律主张。",
+      source: "Folha de S.Paulo",
+      url: "https://www1.folha.uol.com.br/mercado/2026/08/nova-proposta-de-reforma-da-previdencia-busca-estabilizar-gasto-com-idade-minima-de-67-anos-e-capitalizacao.shtml"
+    },
+    {
       date: "2026-08-20",
       memberId: "peter-fisher",
       type: "受访",
@@ -675,6 +693,14 @@ window.TASK_FORCE_DATA = {
     }
   ],
   sources: [
+    {
+      label: "a16z 公告：The Machine Age Fund（2026-08-28）",
+      url: "https://a16z.com/the-machine-age-fund/"
+    },
+    {
+      label: "Fraga 表态：Folha 养老改革方案报道（2026-08-27）",
+      url: "https://www1.folha.uol.com.br/mercado/2026/08/nova-proposta-de-reforma-da-previdencia-busca-estabilizar-gasto-com-idade-minima-de-67-anos-e-capitalizacao.shtml"
+    },
     {
       label: "Foster 商学院专访：Peter R. Fisher Brings a Career in Markets and Monetary Policy to Foster（2026-08-20）",
       url: "https://foster.uw.edu/news/ms-finance-peter-r-fisher/"
