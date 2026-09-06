@@ -1,5 +1,5 @@
 window.TASK_FORCE_DATA = {
-  updated: "2026-08-31",
+  updated: "2026-09-07",
   groups: [
     {
       id: "communications",
@@ -548,6 +548,24 @@ window.TASK_FORCE_DATA = {
   ],
   activities: [
     {
+      date: "2026-09-02",
+      memberId: "raghuram-rajan",
+      type: "受访",
+      title: "Rajan 一周三连访：质疑印度 GDP 数据真实性，追问为何增长不创造就业",
+      summary: "Rajan 在接受 PTI、Mint 和 BusinessToday 采访时质疑印度 7.8% GDP 增速数据的真实性，指出若经济确如统计所示高速增长，私人投资、FDI 和优质就业理应同步扩大但并未出现——「这些增长数字是真的吗？」他表示既不肯定也不否定数字本身，但对统计差异表示困惑。他呼吁政府正视就业危机，认为印度正处人口红利窗口期，若不能为年轻人创造足够岗位将错失历史机遇。",
+      source: "BusinessToday / Mint / PTI",
+      url: "https://www.businesstoday.in/latest/economy/story/are-these-growth-numbers-real-ex-rbi-governor-raghuram-rajan-casts-doubts-on-indias-gdp-numbers-552855-2026-09-02"
+    },
+    {
+      date: "2026-09-01",
+      memberId: "raghuram-rajan",
+      type: "受访",
+      title: "《Frontline》专访：印度就业危机需要服务业驱动增长新模式",
+      summary: "Rajan 在《Frontline》长篇专访中系统阐述其「打破旧模」（Breaking the Mold）主张：印度不应效仿东亚走制造业工业化老路，而应投资教育和技能培训，推动高附加值服务业出口革命。他批评 World Bank 转向支持产业政策是「赶时髦」，认为印度投入数十亿美元造芯片不如聚焦服务业比较优势——「没有任何服务业驱动的经济体先例，但依赖过时模式风险更大」。他还指出印度公共教育投入长期不足，IIT 等顶尖机构经费拮据，制约了人才红利释放。",
+      source: "Frontline (The Hindu)",
+      url: "https://frontline.thehindu.com/interviews/raghuram-rajan-india-jobs-industrial-policy-services-growth/article71410314.ece"
+    },
+    {
       date: "2026-08-28",
       memberId: "marc-andreessen",
       type: "新闻稿",
@@ -693,6 +711,14 @@ window.TASK_FORCE_DATA = {
     }
   ],
   sources: [
+    {
+      label: "Rajan 受访：印度 GDP 增速质疑（BusinessToday/PTI，2026-09-02）",
+      url: "https://www.businesstoday.in/latest/economy/story/are-these-growth-numbers-real-ex-rbi-governor-raghuram-rajan-casts-doubts-on-indias-gdp-numbers-552855-2026-09-02"
+    },
+    {
+      label: "Rajan 受访：印度就业危机与服务业增长模型（Frontline，2026-09-01）",
+      url: "https://frontline.thehindu.com/interviews/raghuram-rajan-india-jobs-industrial-policy-services-growth/article71410314.ece"
+    },
     {
       label: "a16z 公告：The Machine Age Fund（2026-08-28）",
       url: "https://a16z.com/the-machine-age-fund/"

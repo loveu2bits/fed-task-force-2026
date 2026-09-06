@@ -1,5 +1,5 @@
 window.FED_BOARD_DATA = {
-  updated: "2026-08-31",
+  updated: "2026-09-07",
   lanes: [
     {
       id: "leadership",
@@ -279,6 +279,24 @@ window.FED_BOARD_DATA = {
   ],
   activities: [
     {
+      date: "2026-09-03",
+      memberId: "christopher-waller",
+      type: "演讲",
+      title: "《The Economic Outlook and Some Comments on My Policy Communication》（Reuters NEXT Newsmaker 专访）",
+      summary: "Waller 表示三个月核心 PCE 通胀已从 2 月的 4.76% 稳步降至 7 月的 3.05%，趋势令人鼓舞；若 8 月数据延续此改善，他愿支持 9 月 15-16 日 FOMC 维持利率不变，但若通胀反弹则不排除加息。他重申赞同 Warsh 不应在此时使用前瞻指引的立场，强调应区分「反应函数」（基于数据的条件性政策声明）与「前瞻指引」（脱离数据的利率路径承诺），并以棒球裁判的「好球带」比喻前者。经济方面他预计 2026 年 GDP 增长略超 2%，AI 基建投资是合法增长组成部分，不应折价；劳动力市场稳定，失业率 4.1% 接近均衡水平。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm"
+    },
+    {
+      date: "2026-09-01",
+      memberId: "michael-barr",
+      type: "演讲",
+      title: "《Unlocking Opportunities for Workers and Entrepreneurs with a Criminal Record》（第二次机会贷款论坛）",
+      summary: "Barr 在开场经济评述中指出通胀仍远高于 2% 目标且已持续五年多，2024 年降至约 2% 后在 2025 年因关税、中东冲突和 AI 基建三重冲击重新偏离轨道；在 9 月 FOMC 上将再次讨论通胀前景与政策立场——若数据显示通胀正在回落则可再观察，否则应果断加息。演讲主体聚焦刑事记录人群的金融包容性：利用 AI 驱动的现金流信贷评估和替代数据可帮助「薄档案」人群获得信用，并以德克萨斯 PEP 项目（500+ 家企业、部分年收入超百万美元）为例论证第二次机会贷款的可行性。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/barr20260901a.htm"
+    },
+    {
       date: "2026-08-28",
       memberId: "kevin-warsh",
       type: "演讲",
@@ -361,6 +379,14 @@ window.FED_BOARD_DATA = {
     }
   ],
   sources: [
+    {
+      label: "Waller 演讲：The Economic Outlook and Some Comments on My Policy Communication（Reuters NEXT，2026-09-03）",
+      url: "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm"
+    },
+    {
+      label: "Barr 演讲：Unlocking Opportunities for Workers and Entrepreneurs with a Criminal Record（2026-09-01）",
+      url: "https://www.federalreserve.gov/newsevents/speech/barr20260901a.htm"
+    },
     {
       label: "Warsh 演讲：In Our Time（Jackson Hole，2026-08-28）",
       url: "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm"
