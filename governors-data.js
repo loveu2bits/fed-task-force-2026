@@ -1,5 +1,5 @@
 window.FED_BOARD_DATA = {
-  updated: "2026-09-07",
+  updated: "2026-09-14",
   lanes: [
     {
       id: "leadership",
@@ -279,6 +279,24 @@ window.FED_BOARD_DATA = {
   ],
   activities: [
     {
+      date: "2026-09-11",
+      memberId: "michael-barr",
+      type: "新闻稿",
+      title: "四机构就第三方风险管理指引草案征求意见，Barr 理事投下异议票",
+      summary: "美联储联合 FDIC、NCUA、OCC 就基于原则、不具拘束力的第三方关系风险管理指引公开征求意见（在《联邦公报》发布后 60 天截止），计划在最终定稿后以新指引取代现行指引，并同步就社区银行与核心服务商往来发表联合声明；美联储另就一份面向美联储监管的传统社区银行的配套指南单独征求意见。理事 Barr 以单独声明方式行使异议权（dissent）：他支持原则导向，但认为草案引入「重大财务风险」的触发标准、以及「机构将对银行组织的合理决定给予充分考量」等措辞，可能削弱监管在问题转危前及时纠错的能力，并让人误解监管者会顺从银行自身判断；两份文件均排除消费者合规事项，若最终取代现行指引将在该领域留下覆盖缺口，或迫使银行同时遵守两套指引徒增困惑与负担；为传统社区银行单设指南却把业务模式更复杂、尤其需要指引的银行—金融科技合作排除在外。Cook 理事则发表声明支持，并欢迎就网络安全以及消费者保护、记录管理和反洗钱责任分配等细节征求评论。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm"
+    },
+    {
+      date: "2026-09-10",
+      memberId: null,
+      type: "新闻稿",
+      title: "监管机构发布临时最终规则：更多社区银行有资格适用 18 个月检查周期",
+      summary: "根据《21 世纪 ROAD to Housing Act》的要求，美联储、FDIC 与 OCC 发布临时最终规则，把可适用 18 个月延长现场检查周期的合格小型机构总资产门槛由 30 亿美元提高至 60 亿美元，使更多低风险社区银行的检查周期由 12 个月延长至 18 个月（须满足「经营良好且资本充足」等法定条件）；两轮检查之间继续按现行做法开展非现场监测，并为外国银行在美的分支机构及代理处作出平行调整。规则在《联邦公报》发布后立即生效，征求意见期 30 天。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm"
+    },
+    {
       date: "2026-09-03",
       memberId: "christopher-waller",
       type: "演讲",
@@ -379,6 +397,22 @@ window.FED_BOARD_DATA = {
     }
   ],
   sources: [
+    {
+      label: "四机构新闻稿：第三方风险管理指引征求意见（2026-09-11）",
+      url: "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm"
+    },
+    {
+      label: "Barr 理事声明：第三方风险管理指引异议（2026-09-11）",
+      url: "https://www.federalreserve.gov/newsevents/pressreleases/barr-statement-20260911a.htm"
+    },
+    {
+      label: "Cook 理事声明：第三方风险管理指引支持（2026-09-11）",
+      url: "https://www.federalreserve.gov/newsevents/pressreleases/cook-statement-20260911a.htm"
+    },
+    {
+      label: "四机构新闻稿：18 个月检查周期资格门槛上调（2026-09-10）",
+      url: "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm"
+    },
     {
       label: "Waller 演讲：The Economic Outlook and Some Comments on My Policy Communication（Reuters NEXT，2026-09-03）",
       url: "https://www.federalreserve.gov/newsevents/speech/waller20260903a.htm"

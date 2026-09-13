@@ -1,5 +1,5 @@
 window.TASK_FORCE_DATA = {
-  updated: "2026-09-07",
+  updated: "2026-09-14",
   groups: [
     {
       id: "communications",
@@ -548,6 +548,15 @@ window.TASK_FORCE_DATA = {
   ],
   activities: [
     {
+      date: "2026-09-10",
+      memberId: "charles-jones",
+      type: "报告/文章",
+      title: "合著 Anthropic Institute Working Paper No. 2026-02《Economic Scenarios for Transformative AI》并发布配套情景探索器",
+      summary: "Jones 与 Korinek、Sacher、Cotter、McCrory 合著 Anthropic Institute Working Paper No. 2026-02 并发布配套交互情景探索器，用基于任务的标准模型把 AI 能力路径映射为 2026-2030 年 GDP、劳动份额、工资、岗位再配置与失业走势，给出温和（到 2030 年仅为 GDP 增速贡献不足 0.5 个百分点、失业率上升 0.1 个百分点）、实质（2030 年 GDP 较无 AI 基准高约 8%、认知就业降 4%，增速约为历史中枢的两倍）与极端（年增长约 15%、GDP 高约 32.4%、认知工人失业近 1/5）三种情景。核心结论是 AI 在各情景下都抬升 GDP，但机械化越激进，增长越多归于资本而非劳动者——极端情景下劳动收入份额由约 60% 降至约 45%，知识工作者工资不升反降。对 1 万余名美国成年人的调查显示，中位受访者预期接近「实质」情景；报告强调主要政策挑战在于让 AI 的经济收益被广泛分享。",
+      source: "Anthropic Institute",
+      url: "https://www-cdn.anthropic.com/files/4zrzovbb/website/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf"
+    },
+    {
       date: "2026-09-02",
       memberId: "raghuram-rajan",
       type: "受访",
@@ -711,6 +720,14 @@ window.TASK_FORCE_DATA = {
     }
   ],
   sources: [
+    {
+      label: "Anthropic Institute Working Paper No. 2026-02：Economic Scenarios for Transformative AI（2026-09）",
+      url: "https://www-cdn.anthropic.com/files/4zrzovbb/website/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf"
+    },
+    {
+      label: "Anthropic Econ Scenario Explorer：Scenarios for our Economic Future（2026-09）",
+      url: "https://www.anthropic.com/institute/econ-scenarios"
+    },
     {
       label: "Rajan 受访：印度 GDP 增速质疑（BusinessToday/PTI，2026-09-02）",
       url: "https://www.businesstoday.in/latest/economy/story/are-these-growth-numbers-real-ex-rbi-governor-raghuram-rajan-casts-doubts-on-indias-gdp-numbers-552855-2026-09-02"
