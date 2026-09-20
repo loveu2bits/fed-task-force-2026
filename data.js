@@ -1,5 +1,5 @@
 window.TASK_FORCE_DATA = {
-  updated: "2026-09-14",
+  updated: "2026-09-21",
   groups: [
     {
       id: "communications",

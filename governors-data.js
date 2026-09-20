@@ -1,5 +1,5 @@
 window.FED_BOARD_DATA = {
-  updated: "2026-09-14",
+  updated: "2026-09-21",
   lanes: [
     {
       id: "leadership",
@@ -279,6 +279,33 @@ window.FED_BOARD_DATA = {
   ],
   activities: [
     {
+      date: "2026-09-18",
+      memberId: "michelle-bowman",
+      type: "演讲",
+      title: "《Initial Findings from Independent Review of Silicon Valley Bank》：公布 SVB 倒闭独立审查初步发现",
+      summary: "Bowman 在伦敦市长官邸（Mansion House）午餐会宣布由其上任后委托 Starling Advisory Group 开展的硅谷银行（SVB）倒闭独立审查初步发现（系列报告第一篇）。报告的七项关键发现：倒闭源于证券组合未实现会计损失超过资本、94% 未受保存款集中于风险投资支持的科技企业、贴现窗口融资运营准备不足等脆弱性叠加；监管人员在 2022 年 3 月起「就已知道或应当知道」这些风险，却始终未及时果断要求其化解；监管迟延并非由 2018 年 EGRRCPA 的分级监管要求或前任监管副主席的指示造成，核心症结是长期「风险厌恶」文化——检查员个人认为不采取行动比冒行动失误的风险更安全——并因决策权归属不清而进一步加剧；Charles River Associates 受 Starling 委托分析确认，社交媒体并未触发或加速挤兑，96% 的相关讨论出现在倒闭已成定局之后。Bowman 称已发布《监管运营原则声明》重定向监督重点，并要求检查团队按月直接向监管主管上报任何不确定事项，以消除递责顾虑、强化问责。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/bowman20260918b.htm"
+    },
+    {
+      date: "2026-09-18",
+      memberId: "michelle-bowman",
+      type: "演讲",
+      title: "《The Final Chapter on Modernizing Bank Regulatory Stress Testing》：压力测试改革进入收官，SCB 波动率将减半",
+      summary: "Bowman 称金融危机后压力测试框架多年改革的「最后一章」即将落地。理事会在未来数周内将考虑对框架的最终修订：其一是「增强透明度与公共问责」终局规则，要求公布各压力测试模型的方程、变量、系数、假设、局限与决策依据，并公开情景设计流程；其二是以银行最近两次年度测试结果的均值校准压力资本缓冲（SCB），并把生效日由 10 月 1 日推迟至次年 1 月 1 日，两项合计可将 SCB 波动率降低一半且不实质改变总体资本要求。她还表示将建议就修订 2027 年测试所使用的非利息收入模型公开征求意见，并预告扩大「前瞻性」压力测试——针对单家机构的特定脆弱性设计测试，其结果不影响资本要求、也不对外公开，仅用于深化对重大金融与非金融风险敞口的理解。她预计今年年底前理事会还将敲定大型与小型银行风险资本要求的改革以及对全球系统重要性银行（G-SIB）附加资本的改进。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/bowman20260918a.htm"
+    },
+    {
+      date: "2026-09-16",
+      memberId: null,
+      type: "议息",
+      title: "FOMC 以 12-0 全票加息 25 个基点至 3.75%-4.00%，为连续数次按兵不动后首次加息",
+      summary: "FOMC 在 9 月 15-16 日会议后以 12-0 全票决定将联邦基金利率目标区间上调 25 个基点至 3.75%-4.00%，为连续数次维持利率不变后的首次加息。声明称经济正以稳健步伐扩张，产出与资本投资强劲，就业增长与劳动力队伍保持同步、失业率变动不大，而通胀仍处高位；本次行动将支持通胀更快回到 2% 目标——「委员会将实现价格稳定」——并继续维持充足准备金体制。随会议发布的季度经济预测摘要（SEP）显示，2026 年联邦基金利率中位预测由 6 月的 3.8% 上调至 4.1%，暗示年内可能进一步小幅收紧；2026 年 PCE 通胀中位 3.7%、核心 3.4%、失业率 4.1%、GDP 2.3%，通胀预计要到 2028 年才回落至 2%。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+    },
+    {
       date: "2026-09-11",
       memberId: "michael-barr",
       type: "新闻稿",
@@ -397,6 +424,22 @@ window.FED_BOARD_DATA = {
     }
   ],
   sources: [
+    {
+      label: "FOMC 声明与实施说明（2026-09-16）",
+      url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+    },
+    {
+      label: "经济预测摘要（SEP）：2026 年 9 月会议（2026-09-16）",
+      url: "https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm"
+    },
+    {
+      label: "Bowman 演讲：The Final Chapter on Modernizing Bank Regulatory Stress Testing（2026-09-18）",
+      url: "https://www.federalreserve.gov/newsevents/speech/bowman20260918a.htm"
+    },
+    {
+      label: "Bowman 演讲：Initial Findings from Independent Review of Silicon Valley Bank（2026-09-18）",
+      url: "https://www.federalreserve.gov/newsevents/speech/bowman20260918b.htm"
+    },
     {
       label: "四机构新闻稿：第三方风险管理指引征求意见（2026-09-11）",
       url: "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm"
