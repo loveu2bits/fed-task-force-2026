@@ -1,5 +1,5 @@
 window.FED_BOARD_DATA = {
-  updated: "2026-09-21",
+  updated: "2026-10-05",
   lanes: [
     {
       id: "leadership",
@@ -278,6 +278,51 @@ window.FED_BOARD_DATA = {
     }
   ],
   activities: [
+    {
+      date: "2026-09-30",
+      memberId: "lisa-cook",
+      type: "演讲",
+      title: "《The Dual Mandate in Rural America》（2026 Investing in Rural America Conference）",
+      summary: "Cook 强调美联储双重使命同样适用于农村地区。她指出，农村地区的通胀在疫情后一度跑赢城市地区，能源和住房成本上升对农村家庭影响更大；农村劳动力参与率长期低于城市，特别是 25-54 岁男性参与率偏低。她重申美联储致力于在保持劳动力市场强劲的同时将通胀降至 2% 目标，并强调联邦储备系统持续通过研究和社区发展工作支持农村经济活力。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/cook20260930a.htm"
+    },
+    {
+      date: "2026-09-29",
+      memberId: "christopher-waller",
+      type: "演讲",
+      title: "《Payments in the Age of AI Agents》（Sibos 2026）",
+      summary: "Waller 探讨人工智能代理（AI Agents）对全球支付体系的影响。他指出支付行业长期处于运用 AI 抗击欺诈和提升运营效率的前沿，当前正向代理型商务演进。演讲重点讨论了 AI 如何提升跨境支付效率与安全性，以及 AI 代理自主交易可能给支付基础设施带来的变革性影响。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/files/waller20260929a.pdf"
+    },
+    {
+      date: "2026-09-29",
+      memberId: "michelle-bowman",
+      type: "演讲",
+      title: "《Opening Remarks at the Community Bank Cyber Workshop》（社区银行网络安全研讨会）",
+      summary: "Bowman 强调网络安全风险日益复杂，对社区银行构成挑战。她指出董事会和高管需要采取主动的网络风险管理，监管机构也在根据机构风险状况和新兴威胁调整 IT 检查方式，继续为社区银行提供相关资源以应对网络安全挑战。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/bowman20260929a.htm"
+    },
+    {
+      date: "2026-09-29",
+      memberId: "michael-barr",
+      type: "演讲",
+      title: "《Economic Conditions and Monetary Policy》（Detroit Economic Club）",
+      summary: "Barr 回顾当前经济形势：GDP 增长保持稳健，通胀仍高于美联储 2% 目标，劳动力市场大致处于供需平衡状态。他重点分析了 AI 对经济的影响，包括短期投资推动、对通胀的潜在影响，以及中长期生产率提升的可能路径。基于通胀风险上升、劳动力市场风险有所缓解的判断，他支持在 9 月会议上将政策利率上调以更好地平衡双重使命风险。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/barr20260929a.htm"
+    },
+    {
+      date: "2026-09-28",
+      memberId: "lisa-cook",
+      type: "演讲",
+      title: "《An Update on AI and the Economy》（Oakland Tech Week）",
+      summary: "Cook 从历史视角审视 AI 作为通用目的技术对经济的影响。她认为 AI 投资短期推高了芯片等相关产品价格并可能对能源等广泛使用的投入品造成通胀压力，但长期生产率提升有望增加经济供给能力。她同时关注 AI 对劳动力市场的潜在结构性影响，强调需要密切监测 AI 的采用速度、传播范围以及对不同规模企业的影响，以便货币政策及时应对通胀和就业方面的风险。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/cook20260928a.htm"
+    },
     {
       date: "2026-09-18",
       memberId: "michelle-bowman",
