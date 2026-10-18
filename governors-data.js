@@ -1,5 +1,5 @@
 window.FED_BOARD_DATA = {
-  updated: "2026-10-05",
+  updated: "2026-10-19",
   lanes: [
     {
       id: "leadership",
@@ -279,6 +279,69 @@ window.FED_BOARD_DATA = {
   ],
   activities: [
     {
+      date: "2026-10-14",
+      memberId: "michelle-bowman",
+      type: "演讲",
+      title: "《Supervisory Modernization After Silicon Valley Bank》（曼谷经济节，重塑布雷顿森林体系委员会）",
+      summary: "Bowman 系统阐述 SVB 独立审查对全球监管现代化的启示。她指出一线检查员早在 FDIC 接管前九个月就已掌握 SVB 的利率与流动性风险信息，但决策权归属不清、问责缺位导致行动迟延；监管关注点偏重流程、治理与控制（倒闭前累计 54 项 MRAs/MRAs 却无一要求处置核心财务风险），「组织可以极度繁忙却仍忽略最要紧的风险」。她再次否认社交媒体触发挤兑与 2018 年 EGRRCPA 分级监管是主因，并批评 BCBS 与 FSB 在 SVB 事件后几乎逐字照搬不完整报告、据此推进的监管工作「并不成立」；作为 FSB 监管与监管合作常设委员会主席，她主张国际标准制定机构回归安全与金融稳定的核心授权、严格验证数据，并强调现代化不等于少监管，而是按风险重要性与机构规模量体裁衣、让检查员能及时果断行动。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm"
+    },
+    {
+      date: "2026-10-08",
+      memberId: "christopher-waller",
+      type: "演讲",
+      title: "《The Signaling Value of the Summary of Economic Projections》（伊斯坦布尔经济论坛，土耳其央行）",
+      summary: "Waller 回顾其从 2025 年下半年连续降息到 2026 年 9 月支持加息的完整心路：去年降息是对就业走弱的「保险」，今年上半年劳动力市场企稳、中东冲突推高油价、AI 基建推升高科技消费品价格、贸易冲突再起，8 月通胀数据偏热后「多月证据的总和」使其判断原有政策不足以及时将通胀带回 2%。他提出介于「什么都不说」与「强前瞻指引」之间的「信号选项」：可告知市场政策利率最终大概率上移的总量（如 75 个基点），但不锁定节奏与单次幅度、保留数据依赖——SEP 正在扮演这一信号角色（18 位提交点阵图者中 16 位预计年内至少再加息一次，4 位预计两次）。据期货市场定价，市场已预期未来数月累计加息约 50 个基点。他明确短期内政策重心在通胀一侧，若数据符合预期将继续加息，加息不必连续开会进行但应在可接受时间内到位。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm"
+    },
+    {
+      date: "2026-10-07",
+      memberId: null,
+      type: "纪要",
+      title: "FOMC 发布 9 月 15-16 日会议纪要：全员支持加息，多数与会者认为年内可能还需再加息一次",
+      summary: "纪要显示 18 位提交预测的与会者全部支持将联邦基金利率上调 25 个基点至 3.75%-4.00%，理由是通胀仍处高位（8 月 PCE 同比约 3.8%、核心 3.4%）、劳动力市场接近充分就业且近期有所走强、经济活动稳健扩张；几乎所有人判断通胀风险偏上行、劳动力市场风险已明显消退并大体平衡。通胀压力被反复点名于三处：中东冲突推高的油价与成品油价格、AI 基建热潮（AI 相关需求正推升核心商品价格，其影响仍在扩大而关税效应在消退）、以及进一步加征关税的可能性；多位与会者担心高通胀持续逾五年后可能开始影响预期与工资物价制定。多数与会者认为年底前再加息一次很可能是合适的，但强调每次会议视数据而定；数人称当前利率「不具限制性或仅轻度限制性」，个别人还上调了中性利率估计。资产负债表方面，少数人建议完善国债市场出现功能障碍时的策略、沟通与工具，同时限制美联储在国债市场的足迹。会后确定下次会议为 2026 年 10 月 27-28 日。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm"
+    },
+    {
+      date: "2026-10-06",
+      memberId: "michelle-bowman",
+      type: "演讲",
+      title: "《Modernizing the Regulatory and Supervisory Landscape》（社区银行研究会议，圣路易斯）：宣布监管职能重组为五大区域",
+      summary: "Bowman 宣布美联储监管职能启动结构性重组：借鉴州银行监管者会议（CSBS）的区域架构，按州界（而非联储分区）重新划分为五个区域，每区由对区内全部监管活动负责的区域负责人领导，检查员仍留在现有联储驻地、继续监管各自银行——此举旨在厘清决策权与问责、并加强与州及联邦伙伴的协调。她还披露后续改革清单：年内将考虑更新监管规则中的固定金额资产门槛（按通胀与经济增长调整并设五年再校准机制）、推进按资产规模定义银行组合结构及大行量体裁衣框架的更广泛改革、并继续推进 CAMELS 评级改革（M 项不再单独驱动综合评级）；在社区银行端，批评现行并购竞争分析系统性低估农村市场竞争、「陈旧且有害」，要求 FFIEC 层面推动新设银行审批标准明晰化与 Call Report 精简。她同时为 SSOP（监管运营原则声明）辩护，称其标志着检查文化从「流程清单」回归「重大实质性风险」的转折，而 SVB 独立审查暴露的委员会文化曾成为拖延行动与逃避问责的温床。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/bowman20261006a.htm"
+    },
+    {
+      date: "2026-10-01",
+      memberId: "michelle-bowman",
+      type: "演讲",
+      title: "《Modernizing Financial Regulation: Initial Observations from eSLR》（大西洋理事会 CEO 峰会）：杠杆率改革初步成效",
+      summary: "Bowman 通报 2025 年 11 月定稿、2026 年 4 月 1 日生效的 eSLR 重新校准（GSIB 杠杆缓冲由固定 2% 改为其方法一附加资本的 50%，存款子公司上限 1%）的早期成效：八家美国 GSIB 中七家提前采用，六家交易商母公司 2026 年一季度合计新增近 5 万亿美元 eSLR 缓冲空间；监管数据显示交易商国债持仓从调整期初约 6000 亿美元升至 4 月底逾 7000 亿美元，增幅集中于此前受约束最紧的低缓冲机构。市场反馈显示 GSIB 杠杆容量从 2025 年四季度的 1.8 万亿美元跃升至新规则后的 6.4 万亿美元，交易商利用新增容量增加国债持仓并做空国债期货对冲，吸收了部分此前由对冲基金持有的基差交易头寸，有助于降低该类高杠杆策略在冲击下的市场脆弱性；报价价差收窄、拍卖周期日内波动下降、融资条件平静。她总结的核心教训是监管必须随证据持续现代化——eSLR 从「绑死约束」回归「风险资本后备」正是规则本意。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm"
+    },
+    {
+      date: "2026-10-01",
+      memberId: "philip-jefferson",
+      type: "演讲",
+      title: "《The U.S. Economy and Monetary Policy》（弗吉尼亚大学达顿商学院）：支持 9 月加息，通胀风险偏上行",
+      summary: "Jefferson 称经济在能源冲击、AI 基建热潮与贸易政策变化的连环冲击下仍具韧性：上半年 GDP 增速 2.4% 约与潜在增速持平，AI 相关投资继续支撑增长；劳动力市场已稳定，失业率 8 月降至 4.1% 接近充分就业，裁员维持低位、职位空缺与失业人数之比回到 1 以上。通胀端 8 月 PCE 同比 3.4%、已连续五年多高于目标，近期抬头主要由能源价格驱动，核心服务除住房外价格在工资增速放缓背景下仍小幅上行，AI 热潮正推升相关商品与服务的生产成本；短期调查预期偏高，但多数长期预期仍锚定在与 2% 一致的水平。他明确支持 9 月加息 25 个基点至 3.75%-4.00%，认为这是确保长期通胀预期锚定、维护公众对 2% 目标信心的必要之举；基准情形是通胀短期维持高位、待能源与其他价格冲击消退后回归目标，但风险偏上行。对未来路径，他强调需观察数据趋势、前景与风险平衡，注意到 9 月会后各期限收益率进一步上行，「做出判断可能需要更多时间」。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm"
+    },
+    {
+      date: "2026-10-01",
+      memberId: "christopher-waller",
+      type: "演讲",
+      title: "《The Data Version of Godzilla versus Kong: FRED Takes on AI》（FRED Con 2026，圣路易斯联储）",
+      summary: "Waller 盛赞 FRED 是美联储「做过的最大公益」：从 1961 年邮寄数据摘要起步，如今收录逾 85 万条序列、2025 年触达 1800 万独立用户。面对 AI 浪潮，他披露 FRED 流量正以每年 150% 增长且大部分来自 AI 与机器人，约一半访问已由 AI 代理完成；FRED 团队推出 MCP 连接器（Model Context Protocol），让用户自带 AI 代理（BYOAI）检索数据，并正为 AI 代理开发理解经济数据的技能、链接 FRASER 与 ALFRED 历史文档库。他同时警示 AI 生成内容的幻觉、偏见与错误归因风险——AI 可能无法准确标注数据来源、混淆相关与因果；宣布美联储理事会发布的部分数据将很快直接路由至 FRED 及其工具。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm"
+    },
+    {
       date: "2026-09-30",
       memberId: "lisa-cook",
       type: "演讲",
@@ -469,6 +532,34 @@ window.FED_BOARD_DATA = {
     }
   ],
   sources: [
+    {
+      label: "Bowman 演讲：Supervisory Modernization After Silicon Valley Bank（2026-10-14）",
+      url: "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm"
+    },
+    {
+      label: "Waller 演讲：The Signaling Value of the Summary of Economic Projections（2026-10-08）",
+      url: "https://www.federalreserve.gov/newsevents/speech/waller20261008a.htm"
+    },
+    {
+      label: "FOMC 会议纪要（2026 年 9 月 15-16 日会议，2026-10-07 发布）",
+      url: "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm"
+    },
+    {
+      label: "Bowman 演讲：Modernizing the Regulatory and Supervisory Landscape（2026-10-06）",
+      url: "https://www.federalreserve.gov/newsevents/speech/bowman20261006a.htm"
+    },
+    {
+      label: "Bowman 演讲：Modernizing Financial Regulation: Initial Observations from eSLR（2026-10-01）",
+      url: "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm"
+    },
+    {
+      label: "Jefferson 演讲：The U.S. Economy and Monetary Policy（2026-10-01）",
+      url: "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm"
+    },
+    {
+      label: "Waller 演讲：The Data Version of Godzilla versus Kong: FRED Takes on AI（2026-10-01）",
+      url: "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm"
+    },
     {
       label: "FOMC 声明与实施说明（2026-09-16）",
       url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
