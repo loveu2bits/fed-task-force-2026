@@ -1,5 +1,5 @@
 window.TASK_FORCE_DATA = {
-  updated: "2026-10-19",
+  updated: "2026-10-26",
   groups: [
     {
       id: "communications",
@@ -548,6 +548,42 @@ window.TASK_FORCE_DATA = {
   ],
   activities: [
     {
+      date: "2026-10-22",
+      memberId: "marc-andreessen",
+      type: "新闻稿",
+      title: "a16z 将加密基金扩展并更名为 a16z Frontier，Andreessen 与 Ben Horowitz 共同领衔",
+      summary: "a16z 宣布把 a16z Crypto 的投资范围从加密初创扩展至更广义的「前沿」公司，并更名为 a16z Frontier；加密与相关投资、监管倡导继续保留。新基金由 Chris Dixon 领导，Andreessen 与 Ben Horowitz 及 GP Eddy Lazzarin、Guy Wuollet 共同参与。公告判断 AI 模型与基础设施的扩建仍将继续，但技术已足以催生新一代产品与市场，重点押注「原生」用例——此前 AI 多用于把写代码等既有工作做得更快更便宜，未来将出现全新的体验与机器网络；区块链则提供快速、廉价、全球可编程的支付轨道与机器间交易能力。",
+      source: "a16z",
+      url: "https://a16z.com/a16z-frontier/"
+    },
+    {
+      date: "2026-10-21",
+      memberId: "raj-chetty",
+      type: "播客",
+      title: "Richmond Fed 播客《Economic Mobility Across Rural America》：社会资本是经济流动性最强预测因子",
+      summary: "在 10 月 21 日发布的 Richmond Fed《Speaking of the Economy》中，Chetty 基于匿名税表与人口普查大数据指出，美国经济流动性地理差异显著：中西部农村低收入家庭子女向上流动概率居全国乃至全球前列，而东南部农村普遍偏低。他把「经济连接度」——低收入者与高收入者的社会联系——称为目前发现的最强单一预测因子，中西部小镇因单一学校、跨阶层交往多而占优，东南部则受收入水平低与隔离程度高拖累。美国梦亦在整体退潮：1940-50 年代出生者几乎必然超越父辈，如今 30 岁左右人群只有约五成机会。他提醒流动性并非固定，政策应双管齐下——东南部投资本地学校与职业培训以「以人才引企业」，中西部则重在留住人才、创造本地岗位与吸引资本；其团队正用机器学习构造「数字孪生」，在 5,000 个职业培训项目中免随机试验评估项目增值。",
+      source: "Federal Reserve Bank of Richmond",
+      url: "https://www.richmondfed.org/podcasts/speaking_of_the_economy/2026/speaking_2026_10_21_IRA_chetty"
+    },
+    {
+      date: "2026-10-20",
+      memberId: "asha-sharma",
+      type: "受访",
+      title: "Fortune 专访：Xbox CEO 谈扭亏、AI 与「不为 AI 而 AI」",
+      summary: "Fortune 长篇专访披露 Sharma 自 2 月出任 Xbox CEO 后的扭亏路线：聚焦硬件、玩家体验、核心 IP 与技术栈，计划 2027 假日季推出新一代掌机、2028 假日季推出下一代主机；Game Pass 将改为可选模块的分层结构。她已裁减 1,868 人（计划一年内减少 3,200 个岗位），并把资源从中小工作室集中到《我的世界》《魔兽世界》等大 IP，要求项目给出可投资的商业论证。AI 方面，Project Helix 的工程期限被提前数月，团队借助 AI 提速，但她明确不会「为 AI 而 AI」，只把 AI 当作解决具体工程与性能问题的工具。Xbox 收入约 210 亿美元、利润率仅约 3%，约为竞争对手的三分之一到十分之一；她承认外界对其是否为出售或分拆做准备的猜测，但称 Xbox 将长期是微软重要部分。",
+      source: "Fortune",
+      url: "https://fortune.com/2026/10/20/the-non-gamer-ceo-racing-to-save-microsofts-xbox/"
+    },
+    {
+      date: "2026-10-19",
+      memberId: "thomas-sargent",
+      type: "就任",
+      title: "重返宾大：诺贝尔经济学奖得主 Sargent 受聘 Wharton Rowan 杰出金融学教授",
+      summary: "Wharton 宣布包括 Sargent 在内的 9 位新教员，Sargent 获任 Rowan 杰出金融学教授。他 1970 年曾在宾大任教一年半，此后长期访问校园、与几代金融系博士生交流；其履历包括 NYU、斯坦福、哈佛、芝加哥大学与首尔国立大学，曾担任明尼阿波利斯联储顾问，著有十余本书、数百篇论文，并在北大汇丰商学院创办 Sargent 数量经济与金融研究所。作为宏观经济学家，他研究经济政策如何影响民众，把研究形容为「爱恨交织」——完成前热爱，完成后总觉得本可以更努力；他称学术工作是一种特权，「我愿付钱来做这件事」。",
+      source: "INOMICS / Knowledge at Wharton",
+      url: "https://inomics.com/news/nobel-laureate-thomas-sargent-among-nine-new-hires-at-upenn-wharton-school-1555584"
+    },
+    {
       date: "2026-09-10",
       memberId: "charles-jones",
       type: "报告/文章",
@@ -720,6 +756,22 @@ window.TASK_FORCE_DATA = {
     }
   ],
   sources: [
+    {
+      label: "a16z 公告：a16z Frontier（2026-10-22）",
+      url: "https://a16z.com/a16z-frontier/"
+    },
+    {
+      label: "Richmond Fed 播客：Economic Mobility Across Rural America（Chetty，2026-10-21）",
+      url: "https://www.richmondfed.org/podcasts/speaking_of_the_economy/2026/speaking_2026_10_21_IRA_chetty"
+    },
+    {
+      label: "Fortune 专访：The non-gamer CEO racing to save Microsoft's Xbox（Sharma，2026-10-20）",
+      url: "https://fortune.com/2026/10/20/the-non-gamer-ceo-racing-to-save-microsofts-xbox/"
+    },
+    {
+      label: "Wharton 新教员公告：Nobel Laureate Thomas Sargent Among Nine New Hires（2026-10-19，经 INOMICS 转载）",
+      url: "https://inomics.com/news/nobel-laureate-thomas-sargent-among-nine-new-hires-at-upenn-wharton-school-1555584"
+    },
     {
       label: "Anthropic Institute Working Paper No. 2026-02：Economic Scenarios for Transformative AI（2026-09）",
       url: "https://www-cdn.anthropic.com/files/4zrzovbb/website/cf58f84d46a4a76bf5a5b039ac695fba6b80041c.pdf"
