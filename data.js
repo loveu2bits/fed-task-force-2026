@@ -1,5 +1,5 @@
 window.TASK_FORCE_DATA = {
-  updated: "2026-10-26",
+  updated: "2026-11-02",
   groups: [
     {
       id: "communications",
@@ -548,6 +548,15 @@ window.TASK_FORCE_DATA = {
   ],
   activities: [
     {
+      date: "2026-10-26",
+      memberId: "marc-andreessen",
+      type: "博客",
+      title: "《Let Chaos Reign, and Then Rein In Chaos》：从 PC、电子表格到 AI Agent 的「混乱—驯服」采用史",
+      summary: "Andreessen 借 Replit 提出的 Agent Habitat 概念撰文指出，真正颠覆性的技术往往以「混乱」方式进入职场：个人电脑被员工私自接入、电子表格沦为无人能审计的「幻觉」、电子邮件冲击公司信息管控，但正是这种自下而上的热情与主人翁感推动了组织对齐与生产力跃升。关键不是消灭混乱，而是像 Andy Grove 所说先「让混乱发生、再把混乱驯服」——为技术提供恰当「栖息地」，在保留自主性的同时施加必要的权限、审计与流程约束。他把 AI Agent 视为同一脉络的下一波：未来企业竞争将取决于「agent 栖息地」的丰富程度，能否让更多「知道该做什么」的人直接产出代码这一终极「对齐工件」，从而走向「自驱动公司」。",
+      source: "a16z",
+      url: "https://a16z.com/let-chaos-reign-and-then-rein-in-chaos/"
+    },
+    {
       date: "2026-10-22",
       memberId: "marc-andreessen",
       type: "新闻稿",
@@ -756,6 +765,10 @@ window.TASK_FORCE_DATA = {
     }
   ],
   sources: [
+    {
+      label: "a16z 文章：Let Chaos Reign, and Then Rein In Chaos（Andreessen，2026-10-26）",
+      url: "https://a16z.com/let-chaos-reign-and-then-rein-in-chaos/"
+    },
     {
       label: "a16z 公告：a16z Frontier（2026-10-22）",
       url: "https://a16z.com/a16z-frontier/"

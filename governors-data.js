@@ -1,5 +1,5 @@
 window.FED_BOARD_DATA = {
-  updated: "2026-10-26",
+  updated: "2026-11-02",
   lanes: [
     {
       id: "leadership",
@@ -279,6 +279,15 @@ window.FED_BOARD_DATA = {
   ],
   activities: [
     {
+      date: "2026-10-28",
+      memberId: null,
+      type: "议息",
+      title: "FOMC 以 10-2 维持利率于 3.75%-4.00% 不变，Cook 与 Hammack 主张再加息 25bp",
+      summary: "FOMC 在 10 月 27-28 日会议后以 10-2 决定将联邦基金利率目标区间维持在 3.75%-4.00%，为 9 月加息后首次按兵不动，并继续维持充足准备金体制。声明称经济正以强劲步伐扩张，地缘政治发展令不确定性仍高但国内支出有韧性，生产率增长强劲、资本投资旺盛，就业增长与劳动力队伍保持同步、失业率变动不大；通胀仍处高位，「更多信息的积累」将帮助委员会确定合适的政策立场，并重申「委员会将实现价格稳定」。Cook 与克利夫兰联储主席 Hammack 投反对票，主张本次再将利率上调 25 个基点。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
+    {
       date: "2026-10-14",
       memberId: "michelle-bowman",
       type: "演讲",
@@ -532,6 +541,10 @@ window.FED_BOARD_DATA = {
     }
   ],
   sources: [
+    {
+      label: "FOMC 声明（2026 年 10 月 27-28 日会议，2026-10-28）",
+      url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+    },
     {
       label: "Bowman 演讲：Supervisory Modernization After Silicon Valley Bank（2026-10-14）",
       url: "https://www.federalreserve.gov/newsevents/speech/bowman20261014a.htm"
