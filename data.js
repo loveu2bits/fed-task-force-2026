@@ -1,5 +1,5 @@
 window.TASK_FORCE_DATA = {
-  updated: "2026-11-02",
+  updated: "2026-11-09",
   groups: [
     {
       id: "communications",
@@ -548,6 +548,15 @@ window.TASK_FORCE_DATA = {
   ],
   activities: [
     {
+      date: "2026-11-02",
+      memberId: "raj-chetty",
+      type: "报告/文章",
+      title: "《Experimentally Validated Digital Twins: Evaluating Workforce Training Programs in the Age of Big Data》：以 37 项 RCT 校准机器学习「数字孪生」评估职业培训",
+      summary: "Chetty 与 Fogel、Katz 等利用 1999-2025 年覆盖全美成年人的匿名税表，以机器学习从工作史、人口特征与居住地预测反事实，估计职业培训项目对收入的因果效应；研究不再假设观察估计无偏，而是用 37 项随机对照试验（RCT）估计其偏差分布。结果显示机器学习估计与 RCT 结果高度吻合，均方根误差与 RCT 本身相当，且较以往参数化估计降低 60%。将方法外推至实验样本之外的更多站点与入学年份后发现，同一项目在不同地区、不同时期的收益差异显著，把更多参与者送入目标行业岗位的项目收入增益最大且离职后仍持续。这为用观察数据构建「实验校准的数字孪生」、规模化评估培训与高等教育项目提供了可复制路径。",
+      source: "Opportunity Insights / arXiv",
+      url: "https://arxiv.org/abs/2611.03938"
+    },
+    {
       date: "2026-10-26",
       memberId: "marc-andreessen",
       type: "博客",
@@ -765,6 +774,10 @@ window.TASK_FORCE_DATA = {
     }
   ],
   sources: [
+    {
+      label: "Opportunity Insights 工作论文：Experimentally Validated Digital Twins（Chetty 等，2026-11-02，arXiv:2611.03938）",
+      url: "https://arxiv.org/abs/2611.03938"
+    },
     {
       label: "a16z 文章：Let Chaos Reign, and Then Rein In Chaos（Andreessen，2026-10-26）",
       url: "https://a16z.com/let-chaos-reign-and-then-rein-in-chaos/"

@@ -1,5 +1,5 @@
 window.FED_BOARD_DATA = {
-  updated: "2026-11-02",
+  updated: "2026-11-09",
   lanes: [
     {
       id: "leadership",
