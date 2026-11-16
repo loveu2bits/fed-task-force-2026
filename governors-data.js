@@ -1,5 +1,5 @@
 window.FED_BOARD_DATA = {
-  updated: "2026-11-09",
+  updated: "2026-11-16",
   lanes: [
     {
       id: "leadership",
@@ -279,6 +279,42 @@ window.FED_BOARD_DATA = {
   ],
   activities: [
     {
+      date: "2026-11-13",
+      memberId: "philip-jefferson",
+      type: "演讲",
+      title: "《New Technology, Old Questions: Productivity Puzzles and the Macroeconomy》：新技术、老问题与生产率之谜",
+      summary: "Jefferson 在加州大学圣迭戈分校经济圆桌会上回顾 IT 革命中“索洛悖论”的历史经验，指出生成式 AI 的采用仍处早期，虽在部分任务层面提升效率，但对总量生产率的影响尚待更多数据验证。他认为 AI 相关投资与财富效应已在提振总需求并对部分领域价格形成上行压力，中期看技术扩散与供给扩张有望缓解通胀压力；同时强调需警惕劳动力错配加剧与中性利率可能上移的风险。在经济前景上，他指出经济增长动能稳健、劳动力市场趋稳但通胀仍显著高于 2% 目标，后续政策应依据数据、前景与风险平衡审慎调整。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm"
+    },
+    {
+      date: "2026-11-12",
+      memberId: "michael-barr",
+      type: "演讲",
+      title: "《American Inequality and the Future of AI》：美国不平等与人工智能的未来",
+      summary: "Barr 在耶鲁大学结合最新消费者财务调查数据阐述美国财富与收入高度集中、且财富不平等更为突出的现状，并回顾历史上技术变迁、市场集中与政策选择对不平等的影响。他指出劳动收入份额长期下行与企业资产回报集中等因素加剧分化，AI 既可能通过提升生产率和创造新岗位扩大机会，也可能在资本偏向型扩张、市场集中度上升或劳动替代过快时放大不平等。Barr 强调应尽早关注劳动力调整、竞争环境与机会分配等制度安排，以便在 AI 扩散过程中更广泛地分享长期收益并降低短期冲击。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm"
+    },
+    {
+      date: "2026-11-10",
+      memberId: "michelle-bowman",
+      type: "演讲",
+      title: "《The U.S. Economy and Considerations for Monetary Policy》：美国经济与货币政策考量",
+      summary: "Bowman 在纽约预测者俱乐部表示，美国经济增长动能增强、劳动力市场较去年改善并趋于稳定，但通胀进展令人失望，仍是政策首要关切。她将当前通胀粘性归因于能源、关税与 AI 相关投资需求等供给和相对价格冲击的叠加，并指出 AI 资本开支与能源市场波动既支撑增长，也可能通过融资条件、资产估值与成本传导影响前景。Bowman 认为 10 月会议维持利率不变有助于观察后续数据与金融条件变化，并强调未来政策取决于通胀走势、就业演变及双重使命风险的平衡。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm"
+    },
+    {
+      date: "2026-11-10",
+      memberId: "christopher-waller",
+      type: "演讲",
+      title: "《The Economic Outlook and Some Thoughts on Labor Market Dynamism》：经济前景与劳动力市场活力思考",
+      summary: "Waller 在伦敦英格兰银行观察者会议上指出，美国经济增长强劲、失业率处于低位且劳动力市场总体稳定，但通胀仍显著高于 2% 目标，通胀广度与能源、AI 相关价格压力值得警惕。他重点讨论当前“低招聘、低解雇”并存的劳动力市场特征，认为就业水平稳定并不必然意味着市场活力充足，年轻人和长期失业者面临的匹配困难可能影响生产率与潜在增长。基于通胀前景，Waller 表示倾向于在 12 月会议上再加息 25 个基点，并视后续通胀数据决定是否需要更强行动。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm"
+    },
+    {
       date: "2026-10-28",
       memberId: null,
       type: "议息",
@@ -541,6 +577,22 @@ window.FED_BOARD_DATA = {
     }
   ],
   sources: [
+    {
+      label: "Jefferson 演讲：New Technology, Old Questions: Productivity Puzzles and the Macroeconomy（2026-11-13）",
+      url: "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm"
+    },
+    {
+      label: "Barr 演讲：American Inequality and the Future of AI（2026-11-12）",
+      url: "https://www.federalreserve.gov/newsevents/speech/barr20261112a.htm"
+    },
+    {
+      label: "Bowman 演讲：The U.S. Economy and Considerations for Monetary Policy（2026-11-10）",
+      url: "https://www.federalreserve.gov/newsevents/speech/bowman20261110a.htm"
+    },
+    {
+      label: "Waller 演讲：The Economic Outlook and Some Thoughts on Labor Market Dynamism（2026-11-10）",
+      url: "https://www.federalreserve.gov/newsevents/speech/waller20261110a.htm"
+    },
     {
       label: "FOMC 声明（2026 年 10 月 27-28 日会议，2026-10-28）",
       url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
