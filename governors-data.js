@@ -1,5 +1,5 @@
 window.FED_BOARD_DATA = {
-  updated: "2026-11-16",
+  updated: "2026-11-23",
   lanes: [
     {
       id: "leadership",
@@ -278,6 +278,78 @@ window.FED_BOARD_DATA = {
     }
   ],
   activities: [
+    {
+      date: "2026-11-20",
+      memberId: "lisa-cook",
+      type: "演讲",
+      title: "《The U.S. Economy in Global Context》：美国经济与全球背景下的通胀和 AI",
+      summary: "Cook 在智利央行第 29 届年会指出，通胀已连续 67 个月高于 2% 目标，10 月 PCE 约 3.8%、核心 3.2%，关税、地缘冲突与 AI 基建令涨价广泛；劳动力市场依然稳健（失业率 4.1%、新增 16.5 万），AI 尚未明显推高整体失业，但年轻人求职时间变长、编码与翻译需求降温。她视 AI 为通用技术，既可能带来巨大生产率提升，也伴随转型阵痛、网络与金融稳定风险。她明确表示 9 月支持加息至 3.75%-4%，10 月反对按兵不动、主张再加 25 个基点，认为金融条件过松，落后于曲线将被迫更大幅度加息并加剧金融体系压力。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/cook20261120a.htm"
+    },
+    {
+      date: "2026-11-20",
+      memberId: "christopher-waller",
+      type: "演讲",
+      title: "《Opening Remarks》：College Fed Challenge 决赛开幕致辞",
+      summary: "Waller 在理事会 College Fed Challenge 决赛开幕致辞中欢迎七支队伍，提及赛事已有 23 年历史、累计 141 所学校参与。他把学生依据公开数据判断政策的任务类比 FOMC 决策，强调清晰沟通的重要性，并介绍了 12 月 8-9 日会议的流程。此篇为礼仪性致辞，未就利率路径或通胀前景作实质表态。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/waller20261120a.htm"
+    },
+    {
+      date: "2026-11-19",
+      memberId: "philip-jefferson",
+      type: "演讲",
+      title: "《Monetary Policy amid Frequent and Complex Shocks》：频繁复杂冲击下的货币政策",
+      summary: "Jefferson 在 IMF 与巴西央行“拉美通胀目标制 25 年”会议上把当前冲击分为需求与供给两类：中东油价冲击既抬升通胀又压制需求，若通胀预期有失锚风险须更强回应，若压力可控则应优先防范就业下行。AI 属于供需时序不同的冲击——当前基建推高需求与价格，未来生产率提升或压低通胀并支撑增长，同时带来岗位替代与新机会。他未明示具体利率路径，强调多重冲击并存下须保持政策校准，在稳固就业的同时恢复价格稳定。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/jefferson20261119a.htm"
+    },
+    {
+      date: "2026-11-18",
+      memberId: "michael-barr",
+      type: "演讲",
+      title: "《Investing in America’s Underserved Communities》：投资美国服务不足社区",
+      summary: "Barr 在纽约联储“Making Missing Markets”会议表示，美国经济强劲但通胀过高，须及时回归 2%；若经济如预期发展，进一步加息是合适的，但仍取决于数据与风险平衡。他重点阐述 CRA、CDFI、NMTC 与 LIHTC 等公私合作工具如何破解信息不对称、分担风险，把资本引向服务不足社区的就业、住房与基础设施建设。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/barr20261118a.htm"
+    },
+    {
+      date: "2026-11-18",
+      memberId: null,
+      type: "纪要",
+      title: "FOMC 发布 10 月 27-28 日会议纪要：多数支持按兵不动，但广泛预期后续加息",
+      summary: "纪要显示 10 月会议以 10-2 维持联邦基金利率于 3.75%-4%，Cook 与 Hammack 主张加息 25 个基点；9 月总体 PCE 同比升至 3.6%、核心约 3.1%，涨价源于能源、此前关税与 AI 基建。绝大多数与会者认为通胀风险偏上行、AI 建设是重要通胀来源，但关税效应正在消退、多数人预计通胀逐步回落至 2%；劳动力市场稳定且接近最大就业（失业率 4.2%），低招聘低裁员使市场活力偏弱。金融稳定讨论聚焦 AI 债务快速增长、表外租赁与循环融资的不透明结构及 AI 资产重估风险；期货定价隐含年底加息 25 个基点、2027 年夏前再加两次，绝大多数与会者认为基准情形下按 9 月 SEP 进一步加息合适，若数据不利下次不排除超过 25 个基点。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm"
+    },
+    {
+      date: "2026-11-17",
+      memberId: "christopher-waller",
+      type: "演讲",
+      title: "《Considerations at the Intersection of Payments and Tokenized Markets》：支付与代币化市场的交汇",
+      summary: "Waller 在 The Clearing House 年会指出，区块链与传统市场加速融合，代币化加剧新旧机构竞争，多种技术方案并存。他强调新服务须靠治理、法律框架与标准建立信任，明确欺诈、密钥管理与“僵尸链”等责任归属；稳定币、代币化存款与货币市场基金同传统轨道及央行货币互补，原子、净额与批量结算各有用途。AI 代理可能成为下一波催化剂，美联储将继续提供基础设施并监测金融稳定影响；本篇未就利率路径表态。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm"
+    },
+    {
+      date: "2026-11-16",
+      memberId: "michael-barr",
+      type: "演讲",
+      title: "《Some Potential Financial Stability Implications of Artificial Intelligence》：AI 的潜在金融稳定影响",
+      summary: "Barr 在米兰第七届 ACM 国际金融 AI 会议表示，AI 长期利好，但引用最新金融稳定报告警示 AI 投资潮的脆弱性：大型科技公司债务、逾 3 万亿美元表外义务与“循环融资”可能放大回报失望时的资产重定价。批发交易中同质模型易导致羊群效应、合谋与系统性风险；消费金融则须防范偏见、黑箱与代理交易失控，他强调模型可解释性与独立验证的重要性。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm"
+    },
+    {
+      date: "2026-11-16",
+      memberId: "kevin-warsh",
+      type: "演讲",
+      title: "《Opening Remarks》：生产力与就业工作组会议开幕致辞",
+      summary: "Warsh 在旧金山联储主办的生产力与就业工作组会议致辞，称该工作组旨在超越短期数据、提前为政策预案，“超级智能”或加速创意与增长，但生产率下滑与人口放缓构成制约。他提出三种情景：生产率提升被广泛共享且经济接近充分就业；自动化推高失业但增长仍高于长期趋势；巨额资本投入后回报落空、股价回调，最终在没有生产率收益的情况下复苏。他强调人类判断不可替代、基础设施投资存在风险，并要求工作组年底前提交建议。",
+      source: "Federal Reserve",
+      url: "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm"
+    },
     {
       date: "2026-11-13",
       memberId: "philip-jefferson",
@@ -577,6 +649,38 @@ window.FED_BOARD_DATA = {
     }
   ],
   sources: [
+    {
+      label: "Cook 演讲：The U.S. Economy in Global Context（2026-11-20）",
+      url: "https://www.federalreserve.gov/newsevents/speech/cook20261120a.htm"
+    },
+    {
+      label: "Waller 致辞：College Fed Challenge Finals Opening Remarks（2026-11-20）",
+      url: "https://www.federalreserve.gov/newsevents/speech/waller20261120a.htm"
+    },
+    {
+      label: "Jefferson 演讲：Monetary Policy amid Frequent and Complex Shocks（2026-11-19）",
+      url: "https://www.federalreserve.gov/newsevents/speech/jefferson20261119a.htm"
+    },
+    {
+      label: "Barr 演讲：Investing in America’s Underserved Communities（2026-11-18）",
+      url: "https://www.federalreserve.gov/newsevents/speech/barr20261118a.htm"
+    },
+    {
+      label: "FOMC 会议纪要（2026 年 10 月 27-28 日会议，2026-11-18 发布）",
+      url: "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm"
+    },
+    {
+      label: "Waller 演讲：Considerations at the Intersection of Payments and Tokenized Markets（2026-11-17）",
+      url: "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm"
+    },
+    {
+      label: "Barr 演讲：Some Potential Financial Stability Implications of Artificial Intelligence（2026-11-16）",
+      url: "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm"
+    },
+    {
+      label: "Warsh 致辞：Productivity and Jobs Task Force Conference Opening Remarks（2026-11-16）",
+      url: "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm"
+    },
     {
       label: "Jefferson 演讲：New Technology, Old Questions: Productivity Puzzles and the Macroeconomy（2026-11-13）",
       url: "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm"

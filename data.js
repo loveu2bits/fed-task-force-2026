@@ -1,5 +1,5 @@
 window.TASK_FORCE_DATA = {
-  updated: "2026-11-16",
+  updated: "2026-11-23",
   groups: [
     {
       id: "communications",
@@ -548,6 +548,42 @@ window.TASK_FORCE_DATA = {
   ],
   activities: [
     {
+      date: "2026-11-18",
+      memberId: "raghuram-rajan",
+      type: "报告/文章",
+      title: "《The Silver Lining of a Data-Center Slowdown》：数据中心建设放缓的正面意义",
+      summary: "Rajan 指出，AI 实验室竞相扩充算力的根源是互不信任下的“永久领先”幻想与对华竞争焦虑，但模型领先者频繁轮换，永久领跑并不现实；主流企业采用仍慢，社会尚未准备好大规模推广。他主张暂停新数据中心审批并非停止 AI，而是让算力供给、监管与员工再培训追赶上来；提高 AI 使用成本会改变“以机器替代员工”的算盘，企业更应采用以员工为中心的重构与培训。他认为中美 AI 竞速仍可控，集体放缓甚至可能重启两国对话。",
+      source: "Project Syndicate / Countercurrents",
+      url: "https://countercurrents.org/2026/11/the-silver-lining-of-a-data-center-slowdown/"
+    },
+    {
+      date: "2026-11-17",
+      memberId: "marc-andreessen",
+      type: "出席",
+      title: "Fortune 报道：《“乌托邦派和末日派都会失望”——美联储顾问 Andreessen 谈 AI 由盛转衰》",
+      summary: "Fortune 报道 Andreessen 在旧金山联储生产力与就业工作组会议上的发言：他称 AI 的真实经济影响将远小于宣传，“乌托邦派与末日派都会失望”。他把经济分为快速采用技术的“快部门”（电子、媒体、大宗商品，价格持续下跌）与受许可和供给约束的“慢部门”（医疗、教育、住房、法律与政府），援引鲍莫尔成本病指出 AI 难降低后者成本、甚至使其占 GDP 比重继续上升；政策决定技术能否落地，若监管不改，就业冲击或被抑制但生产率也可能长期停滞。这对美联储的含义是：AI 带来的通缩可能集中在已降价的部门，服务通胀仍难解决。",
+      source: "Fortune",
+      url: "https://fortune.com/2026/11/17/andreessen-fed-task-force-ai-productivity-baumol-cost-disease-warsh/"
+    },
+    {
+      date: "2026-11-17",
+      memberId: "karen-dynan",
+      type: "受访",
+      title: "Briefing Book 访谈《How Might Fiscal Policy Respond to The Rise of AI?》：AI 兴起下的财政政策回应",
+      summary: "Dynan 与 Elmendorf、Sheiner 的 NBER 论文用四种情景（从“水涨船高”到“资本独赢、约 6% 劳动者被永久替代”）而非单一预测评估 AI 的财政后果。她指出即便生产力较 CBO 假设每年高 1 个百分点，30 年后公众持有债务仍将从当前约 100% GDP 升至 126%，AI 只能减轻而不能解决债务的不可持续；若收益偏向资本，政府按约 15% 有效税率获得的收入更少。她主张现在就布局跨情景稳健政策：强化失业与工资保险、培训和就业服务，资本税与公共持股可分享收益但各有实施与风险权衡。",
+      source: "Briefing Book",
+      url: "https://www.briefingbook.info/p/talking-shop-can-ai-fix-the-federal"
+    },
+    {
+      date: "2026-11-17",
+      memberId: "arminio-fraga",
+      type: "受访",
+      title: "Estadão 视频访谈《Arminio Fraga：“仍存在非常落后的不惜代价增长观”》",
+      summary: "Fraga 在 Estadão 与 Arapyaú 研究院合作的视频访谈中批评“不惜代价的增长”是自我毁灭的幻觉，主张把自然资本纳入经济决策。他指出巴西原生植被覆盖率从 1985 年的 79% 降至 2025 年的 65%，农业依赖降雨和水资源，环境退化会反过来损害生产率；现行 GDP 核算未扣除自然基础设施损耗，“核算是错的”。他认为在碳市场规则与国际信用交易机制明确后，大规模原生林修复可吸引私人投资，并强调生活质量而非仅气候与生物多样性。",
+      source: "Estadão",
+      url: "https://www.estadao.com.br/economia/arminio-fraga-ainda-existe-uma-visao-muito-atrasada-de-crescimento-a-qualquer-custo-assista"
+    },
+    {
       date: "2026-11-02",
       memberId: "raj-chetty",
       type: "报告/文章",
@@ -774,6 +810,22 @@ window.TASK_FORCE_DATA = {
     }
   ],
   sources: [
+    {
+      label: "Rajan 专栏：The Silver Lining of a Data-Center Slowdown（2026-11-18）",
+      url: "https://countercurrents.org/2026/11/the-silver-lining-of-a-data-center-slowdown/"
+    },
+    {
+      label: "Fortune 报道：Andreessen 谈 AI 与美联储生产力工作组会议（2026-11-17）",
+      url: "https://fortune.com/2026/11/17/andreessen-fed-task-force-ai-productivity-baumol-cost-disease-warsh/"
+    },
+    {
+      label: "Briefing Book 访谈：How Might Fiscal Policy Respond to The Rise of AI?（Dynan，2026-11-17）",
+      url: "https://www.briefingbook.info/p/talking-shop-can-ai-fix-the-federal"
+    },
+    {
+      label: "Estadão 视频访谈：Arminio Fraga 谈增长与环境（2026-11-17）",
+      url: "https://www.estadao.com.br/economia/arminio-fraga-ainda-existe-uma-visao-muito-atrasada-de-crescimento-a-qualquer-custo-assista"
+    },
     {
       label: "Opportunity Insights 工作论文：Experimentally Validated Digital Twins（Chetty 等，2026-11-02，arXiv:2611.03938）",
       url: "https://arxiv.org/abs/2611.03938"
